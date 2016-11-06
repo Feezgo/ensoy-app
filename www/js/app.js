@@ -23,10 +23,10 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 	});
 }).config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
-	.state('home', {
-		url: '/home',
+	.state('index', {
+		url: '/index',
 		templateUrl: 'templates/home.html',
 		controller: 'HomeCtrl'
 	});
-	$urlRouterProvider.otherwise('home');
+	$urlRouterProvider.otherwise('index');
 });

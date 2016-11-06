@@ -1,5 +1,8 @@
 angular.module('starter.controllers', [])
-.controller('HomeCtrl', function($scope)
+.controller('HomeCtrl', function($scope, ensoy)
 {
-	console.log($scope);
+	ensoy.productos().then(function(data)
+	{
+		$scope.productos = data;
+	});
 });
