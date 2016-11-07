@@ -1,10 +1,10 @@
-<ion-view title="Products">
+<ion-view title="Productos">
     <ion-content>
      <div class="superior-productos">
      </div>
        <ul>
        		<li ng-repeat="producto in productos">
-       			{{ producto.nombre }}
+       			<a href="#/productos/{{ producto.id }}">{{ producto.nombre }}</a>
        		</li>
        </ul>
     </ion-content>

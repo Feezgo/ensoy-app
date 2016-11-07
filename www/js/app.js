@@ -4,21 +4,6 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
-
-
-
-
-
-.config(function($stateProvider, $urlRouterProvider) {
-	$stateProvider
-	.state('productos', {
-		url: '/productos',
-		templateUrl: 'templates/products.html',
-		controller: 'HomeCtrl'
-	});
-	$urlRouterProvider.otherwise('productos');
-})
-
 .run(function($ionicPlatform) {
 	$ionicPlatform.ready(function() {
 		if(window.cordova && window.cordova.plugins.Keyboard) {
@@ -36,7 +21,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 		}
 	});
 })
-
 .config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 	.state('index', 
@@ -45,11 +29,17 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 		templateUrl: 'templates/home.html',
 		controller: 'HomeCtrl'
 	})
-	.state('producto', 
+	.state('productos', {
+		url: '/productos',
+		templateUrl: 'templates/productos.html',
+		controller: 'ProductosCtrl'
+	})
+	.state('detalles', 
 	{
-		url: 'producto/:id',
-		templateUrl: 'templates/producto.html',
-		controller: 'ProductoCtrl'
+		url: '/productos/:id',
+		templateUrl: 'templates/detalles.html',
+		controller: 'DetallesCtrl'
 	});
-	$urlRouterProvider.otherwise('index');
+
+	$urlRouterProvider.otherwise('productos');
 });
