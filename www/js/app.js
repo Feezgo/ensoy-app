@@ -39,10 +39,17 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
 .config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
-	.state('index', {
+	.state('index', 
+	{
 		url: '/index',
 		templateUrl: 'templates/home.html',
 		controller: 'HomeCtrl'
+	})
+	.state('producto', 
+	{
+		url: 'producto/:id',
+		templateUrl: 'templates/producto.html',
+		controller: 'ProductoCtrl'
 	});
 	$urlRouterProvider.otherwise('index');
 });
