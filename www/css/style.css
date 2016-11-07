@@ -1,1 +1,11 @@
 /* Empty. Add your own CSS if you like */
+.home{
+	
+	 background-image: url("../img/home-02.png");
+     background-position: center top;
+     background-size: 100% 320px;
+     background-repeat: no-repeat;
+     background-color: #FFF;
+     height: 350px;
+
+}

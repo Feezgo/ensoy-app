@@ -5,6 +5,20 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
+
+
+
+
+.config(function($stateProvider, $urlRouterProvider) {
+	$stateProvider
+	.state('productos', {
+		url: '/productos',
+		templateUrl: 'templates/products.html',
+		controller: 'HomeCtrl'
+	});
+	$urlRouterProvider.otherwise('productos');
+})
+
 .run(function($ionicPlatform) {
 	$ionicPlatform.ready(function() {
 		if(window.cordova && window.cordova.plugins.Keyboard) {
@@ -21,7 +35,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 			StatusBar.styleDefault();
 		}
 	});
-}).config(function($stateProvider, $urlRouterProvider) {
+})
+
+.config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 	.state('index', {
 		url: '/index',
