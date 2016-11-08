@@ -1,11 +1,18 @@
 <ion-view title="Productos">
     <ion-content>
      <div class="superior-productos">
+	     <img class="home-icon-1" src="img/epd-icon.png">
+	     <h4>Nutricion inteligente</h4>
+	     <img class="home-icon" src="img/bac-icon.png">
+	     <img class="home-icon" src="img/home-icon.png">
      </div>
-       <ul>
-       		<li ng-repeat="producto in productos">
-       			<a href="#/productos/{{ producto.id }}">{{ producto.nombre }}</a>
-       		</li>
-       </ul>
+ 
+    <slick>
+
+    <div ng-repeat="producto in productos">
+		<a href="#/productos/{{ producto.id }}">{{ producto.nombre }}</a>
+    </div>
+	    
+    </slick>
     </ion-content>
 </ion-view>
