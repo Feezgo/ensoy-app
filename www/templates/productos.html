@@ -1,0 +1,11 @@
+<ion-view title="Productos">
+    <ion-content>
+     <div class="superior-productos">
+     </div>
+       <ul>
+       		<li ng-repeat="producto in productos">
+       			<a href="#/productos/{{ producto.id }}">{{ producto.nombre }}</a>
+       		</li>
+       </ul>
+    </ion-content>
+</ion-view>
