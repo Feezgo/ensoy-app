@@ -7,11 +7,16 @@
 	     <img class="home-icon" src="img/home-icon.png">
      </div>
  
+    <div class="producto-msg-title">
+    Seleccione el producto que desea formular o prescribir
+    </div>
+
+
     <slick>
 
-    <div ng-repeat="producto in productos">
+    <h3 ng-repeat="producto in productos">
 		<a href="#/productos/{{ producto.id }}">{{ producto.nombre }}</a>
-    </div>
+    </h3>
 	    
     </slick>
     </ion-content>

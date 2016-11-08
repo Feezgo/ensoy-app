@@ -14,6 +14,7 @@
 		"descripción": "ENSOY LÍQUIDO es un complemento nutricional líquido balanceado diseñado para incluir en la alimentación de aquellas personas que requieren enriquecer su dieta con macro y micronutrientes. Contiene proteína de alta calidad y digestibilidad (Proteína Aislada de Soya), naturalmente libre de colesterol, de lactosa y de gluten, libre de grasas trans.",
 		"composición": "Agua, maltodextrina, proteína aislada de soya (proteína aislada de soya, fosfato de calcio, lecitina de soya emulsionante), azúcar, aceite de canola, fibra de soya, aceite de soya, polidextrosa, lecitina de soya (emulsionante), sabores artificiales (vainilla), mezcla de estabilizantes (celulosa microcristalina, goma celulosa, carragenina), premezcla vitaminas y minerales (fosfato de magnesio, ascorbato de sodio, niacinamida, sulfato de zinc, vitamina E, sulfato ferroso, D-Pantotenato de calcio, sulfato de manganeso, vitamina A palmitato, piridoxina clorhidrato, riboflavina, tiamina clorhidrato, gluconato de cobre, ácido fólico, yoduro de potasio, D-Biotina, molibdato de sodio, selenito de sodio, cloruro de cromo, vitamina D3, vitamina B12), citrato de potasio, citrato de sodio (regulador de pH), sucralosa (edulcorante artificial).",
 		"presentación": "Tetra por 200 ml sabor a vainilla (Reg. San. RSAZ10I5014).",
+		"invima": "RSAZ10I5014",
 		"imagen" : "img/ensoy_adultos.png"
 	},
 	{
@@ -48,6 +49,7 @@
 		"composición": "Aceite de canola, proteína aislada de soya (proteína aislada de soya, aceite de palma, jarabe de sólidos de maíz, azúcar, fosfato de calcio, citrato de potasio, lecitina (emulsificante), cloruro de sodio, monoglicéridos, sabores artificiales, fosfato de magnesio, ácido ascórbico, óxido de zinc, hierro reducido, pantotenato de calcio, riboflavina, Vitamina A, niacinamida, clorhidrato de piridoxina, mononitrato de tiamina, yoduro de potasio, ácido fólico, Vitamina D3, Vitamina B12, betacaroteno),maltodextrina, azúcar, polidextrosa, sabores artificiales, fosfato de calcio tribásico, premezcla vitaminas y minerales (Bitartrato de colina, fosfato de magnesio, ácido ascórbico, inositol, niacinamida, Vitamina E acetato, pirofosfato férrico, sulfato de zinc, D-pantotenato de calcio, mononitrato de tiamina, clorhidrato de piridoxina, sulfato de manganeso, riboflavina, sulfato cúprico, Vitamina A palmitato, ácido fólico, D-Biotina, yoduro de potasio, cloruro de cromo, molibdato de sodio, Vitamina K, selenito de sodio, Colecalciferol, cianocobalamina), Omega 3 DHA, cloruro de sodio, citrato de potasio, Carboximetil celulosa de sodio (espesante), Cepa probiótica B. coagulans, goma xanthan (espesante), sucralosa (edulcorante artificial)",
 		"preparacion": "Una porción de ENSOY® NIÑOS DEFENSE se prepara adicionando a 1 vaso de agua de 190 ml, 3 cucharas medidoras de ENSOY® NIÑOS DEFENSE. ",
 		"presentación": ": Lata por 400 g (sabor vainilla), rinde 9 porciones. Lata por 900 g (sabor vainilla), rinde 20 porciones (Reg. San. RSAV16I71314).",
+		"invima": "RSAV16I71314",
 		"imagen" : "img/defense ninos.png"
 	},
 	{
@@ -57,6 +59,7 @@
 		"composición": "Aceite de canola, proteína aislada de soya (proteína aislada de soya, aceite de palma, jarabe de sólidos de maíz, azúcar, fosfato de calcio, citrato de potasio, lecitina (emulsificante), cloruro de sodio, monoglicéridos, sabores artificiales, fosfato de magnesio, ácido ascórbico, óxido de zinc, hierro reducido, pantotenato de calcio, riboflavina, Vitamina A, niacinamida, clorhidrato de piridoxina, mononitrato de tiamina, yoduro de potasio, ácido fólico, Vitamina D3, Vitamina B12, betacaroteno), maltodextrina, azúcar, polidextrosa, sabores artificiales (vainilla), premezcla vitaminas y minerales (Bitartrato de colina, fosfato de magnesio, ácido ascórbico, inositol, niacinamida, Vitamina E acetato, pirofosfato férrico, sulfato de zinc, D-pantotenato de calcio, mononitrato de tiamina, clorhidrato de piridoxina, sulfato de manganeso, riboflavina, sulfato cúprico, Vitamina A palmitato, ácido fólico, D-Biotina, yoduro de potasio, cloruro de cromo, molibdato de sodio, Vitamina K, selenito de sodio, Colecalciferol, cianocobalamina), leche en polvo deslactosada, Omega 3 DHA, cloruro de sodio, citrato de potasio, goma xanthan (espesante), sucralosa (edulcorante artificial).",
 		"preparacion": "Para preparar un vaso de ENSOY® NIÑOS SMART, agregue a un vaso 190 ml de agua fría y 3 cucharas medidoras equivalentes a 45 g de ENSOY® NIÑOS SMART. Incluye cuchara medidora.",
 		"presentación": ": Lata por 400 g (sabor vainilla), rinde 9 porciones. (Reg. San. RSAV10I44614).",
+		"invima": "RSAV10I44614",
 		"imagen" : "img/defense ninos.png"
 	},
 	{
@@ -66,6 +69,7 @@
 		"composición": "Proteína aislada de soya (proteína aislada de soya, lecitina de soya (emulsionante)), Maltitol, aceite de Canola, omega 3 DHA-EPA, fibra de soya, sabores artificiales, polidextrosa, premezcla vitaminas y minerales (Fosfato de magnesio dibásico, Ascorbato de sodio, Bitartrato de colina, DL alfa tocoferil acetato, Niacinamida, Óxido de zinc, D- pantotenato de calcio, Pirofosfato férrico, Vitamina A palmitato, Clorhidrato de piridoxina, Óxido de cobre, Sulfato de manganeso, Riboflavina, Mononitrato de tiamina, Ácido fólico, Cloruro de cromo, D-Biotina, Yoduro de potasio, Selenito de sodio, Molibdato de sodio, Colecalciferol, Fitonadiona, Cianocobalamina), ésteres de esterol, citrato de potasio, colorante (Dióxido de titanio, Grasas vegetales), goma xanthan (espesante), Cloruro de sodio, sucralosa (edulcorante artificial).",
 		"preparacion": "Una porción de ENSOY MET se prepara adicionando a 1 vaso de agua de 210ml,3 cucharas medidoras de ENSOYMET.",
 		"presentación": "Lata por 400 g (sabor vainilla), rinde aproximadamente 10 porciones (Reg. San. RSAV16I73615).",
+		"invima": "RSAV16I73615",
 		"imagen" : "img/ensoy_met.png"
 	},
 	{
@@ -75,6 +79,7 @@
 		"composición": "Maltodextrina, proteína aislada de soya (proteína aislada de soya, aceite de palma, jarabe de sólidos de maíz, azúcar, fosfato de calcio, citrato de potasio, lecitina (emulsificante), cloruro de sodio, monoglicéridos, sabores artificiales, fosfato de magnesio, ácido ascórbico, óxido de zinc, hierro reducido, pantotenato de calcio, riboflavina, Vitamina A, niacinamida, clorhidrato de piridoxina, mononitrato de tiamina, yoduro de potasio, ácido fólico, Vitamina D3, Vitamina B12, betacaroteno (colorante natural)), azúcar, aceite de canola, sabores artificiales (vainilla), polidextrosa, fibra de avena, grasa vegetal de maíz, premezcla vitaminas y minerales (Bitartrato de colina, fosfato de magnesio, ácido ascórbico, niacinamida, Vitamina E acetato, pirofosfato férrico, sulfato de zinc, D-pantotenato de calcio, mononitrato de tiamina, clorhidrato de piridoxina, sulfato de manganeso, riboflavina, sulfato cúprico, Vitamina A palmitato, ácido fólico, D-Biotina, yoduro de potasio, cloruro de cromo, molibdato de sodio, Vitamina K, selenito de sodio, Colecalciferol, cianocobalamina), citrato de potasio, cloruro de sodio, goma xanthan (espesante), cepa probiótica Bacillus coagulans, carboximetil celulosa de sodio (espesante), sucralosa (edulcorante artificial).",
 		"preparacion": "Una porción de ENSOY DIGEST  se prepara adicionando a 1 vaso de agua de 200 ml, 3 cucharas medidoras de ENSOY DIGEST.",
 		"presentación": "Lata por 400 g (sabor vainilla), rinde 7 porciones. (Reg. San. RSAV01I53115).",
+		"invima": "RSAV01I53115",
 		"imagen":"img/ensoy_digest.png"
 	},
 	{
@@ -84,6 +89,7 @@
 		"composición": "Maltodextrina, maltitol, aceite de canola, proteína aislada de soya (proteína aislada de soya, lecitina (emulsificante)), proteína de suero lácteo, sabores artificiales, Omega 3 DHA, inulina, fibra de soya, premezcla vitaminas y minerales (fosfato de magnesio, niacinamida, ácido ascórbico, sulfato de zinc, Vitamina E acetato, pirofosfato férrico, D-pantotenato de calcio, clorhidrato de piridoxina, riboflavina,Clorhidrato de tiamina, sulfato cúprico, sulfato de manganeso, ácido fólico, D-Biotina, yoduro de potasio, cloruro de cromo, selenito de sodio, Vitamina K, molibdato de sodio, Betacaroteno, cianocobalamina, colecalciferol, carbonato de calcio, goma xanthan (espesante), cloruro de potasio.",
 		"preparacion": "Para preparar un vaso de ENSOY PREDYAL  de 250 ml, agregue a un vaso 100 ml de agua fría y 4 cucharas medidoras equivalentes a 72 g de producto. Revuelva hasta formar una pasta homogénea. Adicione el agua restante 90 ml y consuma inmediatamente. Incluye cuchara medidora.",
 		"presentación": ": Lata por 400 g (sabor vainilla), rinde aproximadamente 6 porciones (Reg. San. RSAV04I9015).",
+		"invima": "RSAV04I9015",
 		"imagen":"img/ensoy_dyal.png"
 	},
 	 {
@@ -93,6 +99,7 @@
 		"composición": "Maltodextrina, proteína aislada de soya (proteína aislada de soya, lecitina (emulsificante)), maltitol, aceite de canola, proteína de suero lácteo, sabores artificiales, Omega 3 DHA, inulina, fibra de soya, premezcla vitaminas y minerales (fosfato de magnesio, niacinamida, ácido ascórbico, sulfato de zinc, Vitamina E acetato, pirofosfato férrico, D-pantotenato de calcio, clorhidrato de piridoxina, riboflavina, mononitrato de tiamina, sulfato cúprico, sulfato de manganeso, ácido fólico, D-biotina, yoduro de potasio, cloruro de cromo, selenito de sodio, Vitamina K, molibdato de sodio, betacaroteno, cianocobalamina, colecalciferol), carbonato de calcio, colorante artificial (dióxido de titanio, grasas vegetales), goma xanthan (espesante), cloruro de potasio, sucralosa (edulcorante artificial).",
 		"preparacion": "Para preparar un vaso de ENSOY DYAL de 250 ml, agregue a un vaso 100 ml de agua fría y 7 cucharas medidoras equivalentes a 71 g de producto. Revuelva hasta formar una pasta homogénea. Adicione el agua restante 90 ml y consuma inmediatamente. Incluye cuchara medidora.",
 		"presentación": "Lata por 400 g (sabor vainilla), rinde aproximadamente 6 porciones. (Reg. San. RSAV04I8915).",
+		"invima": "RSAV04I8915",
 		"imagen":"img/ensoy_predyal.png"
 	},
 	{
@@ -102,6 +109,7 @@
 		"composición": "Maltodextrina, proteína aislada de soya (proteína aislada de soya, fosfato de calcio, lecitina de soya (emulsificante)), proteína de suero dulce, omega 3 DHA-EPA, aceite de girasol, inulina, aceite de canola, sabores artificiales (vainilla), fibra de soya, leche en polvo descremada, premezcla vitaminas y minerales (sulfato de magnesio, bitartrato de colina, ácido ascórbico, DL alfa tocoferil acetato, sulfato de zinc, niacina, pirofosfato férrico, D-pantotenato de calcio, vitamina A palmitato, clorhidrato de piridoxina, sulfato de manganeso, oxido de cobre, riboflavina, monohidrato de tiamina, ácido fólico, D-biotina, selenito de sodio, molibdato de sodio, vitamina K, colecalciferol, cianocobalamina), fosfato de calcio tribásico, colorante (dióxido de titanio, grasas vegetales), cloruro de sodio, dióxido de silicio coloidal (anticompactante), carboximetil celulosa de sodio (espesante), goma xanthan (estabilizante), sucralosa (edulcorante artificial).",
 		"preparacion": "Para preparar un vaso de ENSOY MEMO, agregue a un vaso 200 ml de agua fría y 3 cucharas medidoras equivalentes a 45 g de producto. Incluye cuchara medidora.",
 		"presentación": "Lata por 400 g (sabor vainilla), rinde 9 porciones. (Reg. San. RSAV16I73515).",
+		"invima": "RSAV16I73515",
 		"imagen":"img/ensoy_memo.png"
 	},
 	{
@@ -111,6 +119,7 @@
 		"composición": "Dextrosa, Proteína aislada de soya (Proteína aislada de soya, fosfato tricálcico, lecitina de soya (emulsificante)), Azúcar, Polidextrosa, Aceite de canola, Sabores artificiales (vainilla), Proteína de suero, Premezcla vitaminas y minerales (Cloruro de potasio, hidróxido de magnesio, ácido ascórbico, pirofosfato férrico, sulfato de zinc, niacinamida, D-pantotenato de calcio, Vitamina E acetato, clorhidrato de piridoxina, riboflavina, Vitamina A palmitato, clorhidrato de tiamina, gluconato de cobre, sulfato de manganeso, ácido fólico, yoduro de potasio, D-biotina, molibdato de sodio, selenito de sodio, Vitamina K, Cloruro de cromo, Colecalciferol, cianocobalamina), Aceite de oliva, Fibra de avena, Leche en polvo deslactosada, Fosfato tricálcico, Omega 3 DHA, Bitartrato de colina, Colorante (Dióxido de titanio), Cloruro de sodio, Almidón pregelatinizado, Goma xanthan (espesante), Luteína, Sucralosa (edulcorante artificial).",
 		"preparacion": "Para preparar un vaso de ENSOY MEMO, agregue a un vaso 200 ml de agua fría y 3 cucharas medidoras equivalentes a 45 g de producto. Incluye cuchara medidora.",
 		"presentación": "Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV10I44414).",
+		"invima": "RSAV10I44414",
 		"imagen":"img/ensoy_prenatal.png"
 	},
 	{
@@ -120,6 +129,7 @@
 		"composición": "Dextrosa, proteína aislada de soya (proteína aislada de soya, fosfato tricálcico, lecitina de soya (emulsificante)), azúcar, polidextrosa, aceite de canola, Sabores artificiales (vainilla), proteína de suero, aceite de oliva, premezcla vitaminas y minerales (Cloruro de potasio, hidróxido de magnesio, ácido ascórbico, sulfato de zinc, niacinamida, Vitamina E acetato, pirofosfato férrico, D-pantotenato de calcio, Vitamina A palmitato, clorhidrato de piridoxina, riboflavina, gluconato de cobre, clorhidrato de tiamina, sulfato de manganeso, ácido fólico, yoduro de potasio, D-biotina, molibdato de sodio, selenito de sodio, Vitamina K, cloruro de cromo, colecalciferol, cianocobalamina), fibra de avena, leche en polvo deslactosada, fosfato tricálcico, Omega 3 DHA, colorante (dióxido de titanio), bitartrato de colina, cloruro de sodio, goma xanthan (espesante), almidón pregelatinizado, luteína, sucralosa (edulcorante artificial).",
 		"preparacion": "Para preparar un vaso de ENSOY LACTANCIA agregue a un vaso de 210 ml de agua fría 4 cucharas medidoras equivalentes a 40 g de producto. Incluye cuchara medidora.",
 		"presentación": "Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV10I44014).",
+		"invima": "RSAV10I44014",
 		"imagen":"img/ensoy_lactancia.png"
 	},
 	{
@@ -129,6 +139,7 @@
 		"composición": ": Proteína aislada de soya (proteína aislada de soya, fosfato de calcio, lecitina (emulsificante)) maltitol, maltodextrina, aceite de canola, azúcar, inulina, premezcla Vitaminas y Minerales (Fosfato de magnesio, bitartrato de colina, sulfato de zinc, ácido ascórbico, Vitamina E, niacinamida, pirofosfato férrico, D-pantotenato de calcio, Vitamina A palmitato, piridoxina clorhidrato, gluconato de cobre, sulfato de manganeso, riboflavina, mononitrato de tiamina, yoduro de potasio, ácido fólico, D-biotina, selenito de sodio, cloruro de cromo, Vitamina K, molibdato de sodio, Vitamina D3, Vitamina B12), proteína de suero lácteo, sabores artificiales (vainilla), fibra de avena, ésteres de esterol, , fosfato tricálcico, colorante (dióxido de titanio, grasas vegetales), Omega 3 DHA, carboximetil celulosa de sodio (espesante), Isoflavonas de soya, goma xanthan (espesante), cloruro de sodio, sucralosa (edulcorante artificial).",
 		"preparacion": "Para preparar un vaso de ENSOY GOLD, agregue a un vaso de 180 ml de agua fría 4 cucharas medidoras equivalentes a 38 g de producto. Incluye cuchara medidora.",
 		"presentación": "Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV03I1214).",
+		"invima": "RSAV03I1214",
 		"imagen":"img/ensoy_gold.png"
 	},
 	{
@@ -138,6 +149,7 @@
 		"composición": "Maltodextrina, omega 3 DHA-EPA, proteína aislada de soya (proteína aislada de soya, lecitina de soya (emulsionante)), proteína de suero, sabores artificiales, azúcar, polidextrosa, fibra de soya, premezcla vitaminas y minerales (Fosfato de magnesio dibásico, Bitartrato de colina, Ácido ascórbico, Sulfato de zinc, Pirofosfato férrico, DL alfa tocoferil acetato, Niacinamida, D- pantotenato de calcio, Sulfato cúprico, Vitamina A palmitato, Clorhidrato de piridoxina, Sulfato de manganeso, Riboflavina, Mononitrato de tiamina, Ácido fólico, D-Biotina, Yoduro de potasio, Selenito de sodio, Cloruro de cromo, Fitonadiona, Molibdato de sodio, Colecalciferol, Cianocobalamina), fosfato de calcio, almidón pregelatinizado, cloruro de sodio, Goma Xanthan (espesante)",
 		"preparacion": "Para preparar un vaso de ENSOY RECOVER de 220ml, agregue a un vaso 100 ml de agua fría y 6 cucharas medidoras equivalentes a 73 g del producto, revolver hasta formar una pasta homogénea, y luego añada el resto de agua 100 ml. Incluye cuchara medidora.",
 		"presentación": ": Lata por 400 g (sabor vainilla), rinde 5 porciones. (Reg. San. RSAV04I8715).",
+		"invima": "RSAV04I8715",
 		"imagen":"img/"
 	},
 	{
@@ -147,6 +159,7 @@
 		"composición": "Proteína aislada de soya (proteína aislada de soya, lecitina (emulsionante), proteína de suero lácteo, dióxido de silicio (anticompactante), almidón pregelatinizado, bromelina",
 		"preparacion": "ENSOY® PROTEÍNA por su fácil dilución y sabor neutro, se mezcla fácilmente con cualquier tipo de alimento, especialmente líquidos como: Cremas, gelatinas, jugos, leche, yogurt, salsas, complementos o suplementos nutricionales.",
 		"presentación": "Lata por 275 g, incluye cuchara medidora que pesa 6 g (Reg. San. RSAV 10I20405) y rinde 46 porciones.",
+		"invima": "RSAV 10I20405",
 		"imagen":"img/ensoy proteina.png"
 	}		
 ]
