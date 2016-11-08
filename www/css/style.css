@@ -55,8 +55,13 @@ height: 49px;
 
 }
 
-.producto-msg-tittle{
+.producto-msg-title{
 
+background-color: #07B1D8;
+color: white;
+border-radius: 24px;
+margin: 9%;
+text-align: center;
+padding: 7.5px 0 7.5px 0;
 
-	
 }
