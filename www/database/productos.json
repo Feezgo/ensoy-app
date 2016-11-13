@@ -50,7 +50,7 @@
 		"preparacion": "Una porción de ENSOY® NIÑOS DEFENSE se prepara adicionando a 1 vaso de agua de 190 ml, 3 cucharas medidoras de ENSOY® NIÑOS DEFENSE. ",
 		"presentación": ": Lata por 400 g (sabor vainilla), rinde 9 porciones. Lata por 900 g (sabor vainilla), rinde 20 porciones (Reg. San. RSAV16I71314).",
 		"invima": "RSAV16I71314",
-		"imagen" : "img/defense ninos.png"
+		"imagen" : "img/defense_ninos.png"
 	},
 	{
 		"id": 7,
@@ -60,7 +60,7 @@
 		"preparacion": "Para preparar un vaso de ENSOY® NIÑOS SMART, agregue a un vaso 190 ml de agua fría y 3 cucharas medidoras equivalentes a 45 g de ENSOY® NIÑOS SMART. Incluye cuchara medidora.",
 		"presentación": ": Lata por 400 g (sabor vainilla), rinde 9 porciones. (Reg. San. RSAV10I44614).",
 		"invima": "RSAV10I44614",
-		"imagen" : "img/defense ninos.png"
+		"imagen" : "img/ninos_smart.png"
 	},
 	{
 		"id": 8,
@@ -150,7 +150,7 @@
 		"preparacion": "Para preparar un vaso de ENSOY RECOVER de 220ml, agregue a un vaso 100 ml de agua fría y 6 cucharas medidoras equivalentes a 73 g del producto, revolver hasta formar una pasta homogénea, y luego añada el resto de agua 100 ml. Incluye cuchara medidora.",
 		"presentación": ": Lata por 400 g (sabor vainilla), rinde 5 porciones. (Reg. San. RSAV04I8715).",
 		"invima": "RSAV04I8715",
-		"imagen":"img/"
+		"imagen":"img/ensoy_recover"
 	},
 	{
 		"id": 17,
@@ -160,6 +160,6 @@
 		"preparacion": "ENSOY® PROTEÍNA por su fácil dilución y sabor neutro, se mezcla fácilmente con cualquier tipo de alimento, especialmente líquidos como: Cremas, gelatinas, jugos, leche, yogurt, salsas, complementos o suplementos nutricionales.",
 		"presentación": "Lata por 275 g, incluye cuchara medidora que pesa 6 g (Reg. San. RSAV 10I20405) y rinde 46 porciones.",
 		"invima": "RSAV 10I20405",
-		"imagen":"img/ensoy proteina.png"
+		"imagen":"img/ensoy_proteina.png"
 	}		
 ]
