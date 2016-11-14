@@ -9,9 +9,31 @@
      height: 350px;
 }
 
+.detalles-imagen{
+    text-align: center;
+    width: 100%;
+}
+
+.franja-azul{
+    position: absolute;
+    z-index: -2;
+    height: 32px;
+    width: 100%;
+    background-color: rgba(0,50,171,0.7);
+    top: 233px;
+}
+
+.franja-amarilla {
+    position: absolute;
+    z-index: -2;
+    height: 32px;
+    width: 100%;
+    background-color: rgba(255,218,0,0.7);
+    top: 293px;
+}
 .productos-imagen-home {
-height: 50%;
-width: 100%;
+width: 69%;
+margin: 0px auto;
 }
 .superior-productos h4{
    margin-top: 18px;
