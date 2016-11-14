@@ -9,9 +9,40 @@
      height: 350px;
 }
 
+.img-home{
+
+    width: 76%;
+    margin-top: 50%;
+
+}
+
 .detalles-imagen{
     text-align: center;
     width: 100%;
+}
+
+.img-home-inf{
+
+    width: 50px;
+    margin-top: 40%;
+}
+
+.franja-azul-home{
+    position: absolute;
+    z-index: -2;
+    height: 10px;
+    width: 100%;
+    background-color: rgba(0,50,171,0.7);
+    top: 0px;
+}
+
+.franja-amarilla-home{
+    position: absolute;
+    z-index: -2;
+    height: 10px;
+    width: 100%;
+    background-color: rgba(255,218,0,0.7);
+    top: 18px;
 }
 
 .franja-azul{
@@ -71,7 +102,6 @@ text-align: center;
 
 
 .superior-productos{
-
 
 border-bottom-color: #FFDA00;
 border-bottom-width: 3px;
