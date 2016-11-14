@@ -9,7 +9,10 @@
      height: 350px;
 }
 
-
+.productos-imagen-home {
+height: 50%;
+width: 100%;
+}
 .superior-productos h4{
    margin-top: 18px;
 	width: 65%;
