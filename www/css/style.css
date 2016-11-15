@@ -63,26 +63,25 @@
     top: 50%;
 }
 .productos-imagen-home {
-width: 69%;
-margin: 0px auto;
+    width: 69%;
+    margin: 0px auto;
 }
 .superior-productos h4{
-   margin-top: 18px;
-	width: 65%;
-	float: left;
-	text-align: center;
-	color: #0032AB;
-	font-size: 13px;
-}
-
-.home-icon{
-       margin-top: 20px;
+    margin-top: 18px;
+    width: 100%;
     float: left;
+    text-align: center;
+    color: #0032AB;
+    font-size: 13px;
+    position: absolute;
+}
+.home-icon {
+    margin-top: 20px;
     width: 23px;
     height: 20px;
-
+    float: right;
+    margin: 15px 7px 0 0;
 }
-
 .home-icon-1{
     margin-top: 5px;
     float: left;
