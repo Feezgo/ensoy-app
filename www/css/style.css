@@ -191,9 +191,9 @@ padding: 5px 5px 5px 5px;
     background-image: url(../img/select-arrow.png), -webkit-linear-gradient(#07B1D8, #07B1D8 40%, #07B1D8);
     background-image: url(../img/select-arrow.png), -o-linear-gradient(#07B1D8, #07B1D8 40%, #07B1D8);
     background-image: url(../img/select-arrow.png), linear-gradient(#07B1D8, #07B1D8 40%, #07B1D8);
-    background-position: 95% center;
+    background-position: 98% center;
     background-repeat: no-repeat;
-    width: 90%;
+    width: 100%;
 }   
 
 div.form-container {
