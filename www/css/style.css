@@ -121,3 +121,19 @@ padding: 7.5px 0 7.5px 0;
 padding: 5px 5px 5px 5px;
 
 }
+
+.slick-prev, .slick-next {
+    top: 44%;
+}
+
+.slick-next {
+    right: 30px;
+}
+
+.slick-prev {
+    left: 30px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #0a0a0a;
+}
