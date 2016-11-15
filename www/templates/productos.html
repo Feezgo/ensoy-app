@@ -9,14 +9,12 @@
     <div class="producto-msg-title">
         Seleccione el producto que desea formular o prescribir
     </div>
-    <div class="franja-azul">
+    <div class="slider-productos">
+    	<slick init-onload=true dots=false arrows=true infinite=false speed=300 slides-to-show=1 touch-move=false slides-to-scroll=1 data="productos">
+    		<div ng-repeat="producto in productos">
+    			<a href="#/productos/{{ producto.id }}"><img class="productos-imagen-home" src="{{producto.imagen}}"></a>
+    		</div>
+    	</slick>
     </div>
-    <div class="franja-amarilla">
-    </div>
-	<slick init-onload=true dots=false arrows=true infinite=false speed=300 slides-to-show=1 touch-move=false slides-to-scroll=1 data="productos">
-		<div ng-repeat="producto in productos">
-			<a href="#/productos/{{ producto.id }}"><img class="productos-imagen-home" src="{{producto.imagen}}"></a>
-		</div>
-	</slick>
     </ion-content>
 </ion-view>
