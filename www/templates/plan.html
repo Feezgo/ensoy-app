@@ -1,11 +1,24 @@
 <ion-view title="Productos">
     <ion-content>
-    <div class="superior-productos">
-	    <img class="home-icon-1" src="img/epd-icon.png">
-	    <h4>Nutricion inteligente</h4>
-         <a href="#/productos" class="home-superior-a"><img class="home-icon" src="img/bac-icon.png"></a>
-         <a href="#" class="home-superior-a"><img class="home-icon" src="img/home-icon.png"></a>
-    </div>
-    
+	    <div class="superior-productos">
+		    <img class="home-icon-1" src="img/epd-icon.png">
+		    <h4>Nutricion inteligente</h4>
+	         <a href="#/productos" class="home-superior-a"><img class="home-icon" src="img/bac-icon.png"></a>
+	         <a href="#" class="home-superior-a"><img class="home-icon" src="img/home-icon.png"></a>
+	    </div>
+	    <div class="producto-msg-title">
+			{{ producto.nombre }}
+		</div>
+		<div class="slider-productos">
+		    <div class="detalles-imagen">
+				<img  class="productos-imagen-home" src="{{ producto.imagen }}">
+			</div>
+		</div>
+		<div>
+			{{ presentacion.detalle }}
+			<ul>
+				<li ng-repeat="disponibilidad in presentacion.disponibilidad">{{ disponibilidad.eps+" "+disponibilidad.codigo }}</li>
+			</ul>
+		</div>
     </ion-content>
 </ion-view>

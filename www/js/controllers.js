@@ -50,6 +50,12 @@ angular.module('starter.controllers', [])
 			return o.id == $scope.plan.id_producto;
 		})[0];
 
+		presentacion = $filter('filter')(producto.presentaciones, function(o)
+		{
+			return o.id == $scope.plan.id_presentacion;
+		})[0]
+
 		$scope.producto = producto;
+		$scope.presentacion = presentacion;
 	});
 });
