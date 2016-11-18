@@ -11,15 +11,43 @@
     	</div>
     	<div class="slider-productos">
 		    <div class="detalles-imagen">
-				<img  class="productos-imagen-home" src="{{producto.imagen}}">
+				<img  class="productos-imagen-home" src="{{ producto.imagen }}">
 			</div>
 		</div>
         <div class="form-container">
-            <select name="" id="" class="select-blue">
-                <option value="">opcion 1</option>
-                <option value="">opcion 2</option>
-                <option value="">opcion 3</option>
+            <select ng-model="plan.numero_tomas_dia" class="select-blue" ng-change="actualizarplan()">
+                <option value="" disabled selected>Número de tomas al dia</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
             </select>
+            <div>
+                <br>
+            </div>
+            <select ng-model="plan.numero_meses" class="select-blue" ng-change="actualizarplan()">
+                <option value="" disabled selected>Número de meses del tratamiento</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            <div>
+                <br>
+            </div>
+            <select ng-model="plan.id_presentacion" class="select-blue" ng-change="actualizarplan()">
+                <option value="" disabled selected>Presentación a formular</option>
+                <option ng-repeat="presentacion in producto.presentaciones" value="{{ presentacion.id }}">{{ presentacion.detalle }}</option>
+            </select>
+            <div>
+                <br>
+            </div>
+            <button ng-click="verplan()">Continuar</button>
         </div>
     </ion-content>
 </ion-view>

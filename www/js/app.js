@@ -39,6 +39,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 		url: '/productos/:id',
 		templateUrl: 'templates/detalles.html',
 		controller: 'DetallesCtrl'
+	})
+	.state('plan', 
+	{
+		url: '/plan',
+		templateUrl: 'templates/plan.html',
+		controller: 'PlanCtrl'
 	});
 
 	$urlRouterProvider.otherwise('productos');

@@ -8,3 +8,22 @@ angular.module('starter.services', [])
         }
     }
 })
+.factory('$plan', function(){
+	var plan = {
+		id_producto: 0,
+		id_presentacion: '',
+		numero_tomas_dia: '',
+		numero_meses: ''
+	}
+
+	return {
+		getPlan: function()
+		{
+			return plan;
+		},
+		setPlan: function(nuevoplan)
+		{
+			plan = nuevoplan;
+		}
+	}
+});

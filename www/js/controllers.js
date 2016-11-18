@@ -9,18 +9,45 @@ angular.module('starter.controllers', [])
 	{
 		$scope.productos = data;
 	});
-
-	$scope.go = function (path) {
-		$location.path(path);
-	};
 })
-.controller('DetallesCtrl', function($scope, $ensoy, $stateParams, $filter)
+.controller('DetallesCtrl', function($scope, $ensoy, $plan, $stateParams, $filter, $location)
 {
+	$scope.plan = {
+		id_producto: $stateParams.id,
+		id_presentacion: '',
+		numero_tomas_dia: '',
+		numero_meses: ''
+	};
+
+	$scope.actualizarplan = function()
+	{
+		$plan.setPlan($scope.plan);
+	};
+
+	$scope.verplan = function () 
+	{
+		$location.path('/plan');
+	};
+
 	$ensoy.productos().then(function(data)
 	{
 		producto = $filter('filter')(data, function(o)
 		{
 			return o.id == $stateParams.id;
+		})[0];
+
+		$scope.producto = producto;
+	});
+})
+.controller('PlanCtrl', function($scope, $ensoy, $plan, $filter)
+{
+	$scope.plan = $plan.getPlan();
+
+	$ensoy.productos().then(function(data)
+	{
+		producto = $filter('filter')(data, function(o)
+		{
+			return o.id == $scope.plan.id_producto;
 		})[0];
 
 		$scope.producto = producto;
