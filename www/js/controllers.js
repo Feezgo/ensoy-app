@@ -10,7 +10,7 @@ angular.module('starter.controllers', [])
 		$scope.productos = data;
 	});
 })
-.controller('DetallesCtrl', function($scope, $ensoy, $plan, $stateParams, $filter, $location)
+.controller('DetallesCtrl', function($scope, $ensoy, $plan, $stateParams, $filter, $location, $ionicPopup)
 {
 	$scope.plan = {
 		id_producto: $stateParams.id,
@@ -26,7 +26,21 @@ angular.module('starter.controllers', [])
 
 	$scope.verplan = function () 
 	{
-		$location.path('/plan');
+		var valido = true;
+		for (var key in $scope.plan)
+		{
+			if($scope.plan[key] == '') valido = false;
+		}
+
+		if (!valido)
+		{
+			var alertPopup = $ionicPopup.alert({
+		    	title: 'Alerta!',
+		    	template: 'Debes seleccionar todas las opciones.'
+		   	});
+		} else {
+			$location.path('/plan');
+		}
 	};
 
 	$ensoy.productos().then(function(data)
