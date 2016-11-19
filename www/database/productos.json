@@ -1,61 +1,119 @@
 [
 	{
-		"id": 1,
-		"nombre": "ENSOY ADULTOS",
-		"descripción": "ENSOY es un alimento en  polvo diseñado para complementar la alimentación de aquellas personas que requieren soporte nutricional con macronutrientes y micronutrientes. Contiene proteína de alta calidad (Proteína Aislada de Soya), naturalmente libre de   colesterol,  lactosa y gluten.",
-		"composición": "Maltodext",
-		"preparacion": "Una porción de ENSOY e prepara adicionando a 1 vaso de agua de 200 ml, 4 cucharas medidoras de ENSOY",
-		"presentación": "Lata por 400 g (sabores)",
-		"imagen": "img/ensoy_adultos.png",
-		"presentaciones": [
+"id": 1,
+"nombre": "ENSOY ADULTOS",
+"descripción": "ENSOY es un alimento en  polvo diseñado para complementar la alimentación de aquellas personas que requieren soporte nutricional con macronutrientes y micronutrientes. Contiene proteína de alta calidad (Proteína Aislada de Soya), naturalmente libre de   colesterol,  lactosa y gluten.",
+"composición": "Maltodext",
+"preparacion": "Una porción de ENSOY e prepara adicionando a 1 vaso de agua de 200 ml, 4 cucharas medidoras de ENSOY",
+"imagen": "img/ensoy_adultos.png",
+"presentaciones": [
+         {
+            "id": 1,"detalle": "lata 400","disponibilidad":
+            [
             {
-            	"id": 1,
-            	"detalle": "lata 400",
-            	"disponibilidad": 
-            	[
-            		{
-            			"eps": "FMP MAGISTERIO",
-            			"codigo": "COA11AS031191"
-            		},
-            		{
-            			"eps": "SURA PRIMERA OPCION",
-            			"codigo": "COA11AS031191"
-            		},
-            		{
-            			"eps": "COOSALUD",
-            			"codigo": "V06DA018252"
-            		}
-            	]
+            "eps": "FMP MAGISTERIO",
+            "codigo": "COA11AS031191"
             },
-         	{
-            	"id": 2,
-            	"detalle": "lata 900",
-            	"disponibilidad": 
-            	[
-            		{
-            			"eps": "MUTUAL SER",
-            			"codigo": "26717"
-            		},
-            		{
-            			"eps": "SURA PRIMERA OPCION",
-            			"codigo": "N877346"
-            		},
-            		{
-            			"eps": "COOSALUD",
-            			"codigo": "V06DA018252"
-            		}
-            	]
+            {
+            "eps": "SURA PRIMERA OPCION",
+            "codigo": "COA11AS031191"
+            },
+            {
+            "eps": "COOSALUD",
+            "codigo": "V06DA018252"
             }
-    	]
-	},
+            ]
+           	},
+        	{
+            "id": 2,
+            "detalle": "lata 900",
+            "disponibilidad":
+            [
+            {
+            "eps": "MUTUAL SER",
+            "codigo": "26717"
+            },
+            {
+            "eps": "SURA PRIMERA OPCION",
+            "codigo": "N877346"
+            }
+            ]
+           	},
+           	{
+            "id": 3,
+            "detalle": "lata 1000",
+            "disponibilidad":
+            [
+            {
+            "eps": "O. CLINICA GENERAL DEL NORTE",
+            "codigo": "26717"
+            },
+            {
+            "eps": "SURA PRIMERA OPCION",
+            "codigo": "N877346"
+            },
+            {
+            "eps": "COOSALUD",
+            "codigo": "N877346"
+            },
+            {
+            "eps": "SURA PRIMERA OPCION",
+            "codigo": "24502"
+            },
+            {
+            "eps": "SURA PRIMERA OPCION",
+            "codigo": "26293"
+            }
+            ]
+           }
+    ]
+},
 	{
 		"id": 2,
 		"nombre": "ENSOY DULTOS LÍQUIDO",
 		"descripción": "ENSOY LÍQUIDO es un complemento nutricional líquido balanceado diseñado para incluir en la alimentación de aquellas personas que requieren enriquecer su dieta con macro y micronutrientes. Contiene proteína de alta calidad y digestibilidad (Proteína Aislada de Soya), naturalmente libre de colesterol, de lactosa y de gluten, libre de grasas trans.",
 		"composición": "Agua, maltodextrina, proteína aislada de soya (proteína aislada de soya, fosfato de calcio, lecitina de soya emulsionante), azúcar, aceite de canola, fibra de soya, aceite de soya, polidextrosa, lecitina de soya (emulsionante), sabores artificiales (vainilla), mezcla de estabilizantes (celulosa microcristalina, goma celulosa, carragenina), premezcla vitaminas y minerales (fosfato de magnesio, ascorbato de sodio, niacinamida, sulfato de zinc, vitamina E, sulfato ferroso, D-Pantotenato de calcio, sulfato de manganeso, vitamina A palmitato, piridoxina clorhidrato, riboflavina, tiamina clorhidrato, gluconato de cobre, ácido fólico, yoduro de potasio, D-Biotina, molibdato de sodio, selenito de sodio, cloruro de cromo, vitamina D3, vitamina B12), citrato de potasio, citrato de sodio (regulador de pH), sucralosa (edulcorante artificial).",
-		"presentación": "Tetra por 200 ml sabor a vainilla (Reg. San. RSAZ10I5014).",
 		"invima": "RSAZ10I5014",
-		"imagen": "img/ensoy_adultos.png"
+		"imagen" : "img/ensoy_adultos.png",
+		 "presentaciones": [
+         	{
+            "id": 1,"detalle": "lata 900","disponibilidad":
+            [
+            {
+            "eps": "FMP MAGISTERIO",
+            "codigo": "COA11AS031191"
+            },
+            {
+            "eps": "SURA PRIMERA OPCION",
+            "codigo": "COA11AS031191"
+            },
+            {
+            "eps": "COOSALUD",
+            "codigo": "V06DA018252"
+            }
+            ]
+           	},
+        	{
+            "id": 2,
+            "detalle": "lata 900",
+            "disponibilidad":
+            [
+            {
+            "eps": "MUTUAL SER",
+            "codigo": "26717"
+            },
+            {
+            "eps": "SURA PRIMERA OPCION",
+            "codigo": "N877346"
+            },
+            {
+            "eps": "COOSALUD",
+            "codigo": "V06DA018252"
+            }
+            ]
+           }
+    ]
+
 	},
 	{
 		"id": 3,
@@ -71,7 +129,18 @@
 		"nombre": "ENSOY DIABÉTICOS LÍQUIDO",
 		"descripción": "ENSOY DIABÉTICOS LÍQUIDO es un complemento nutricional de bajo índice glicémico (IG40) especializado para Diabéticos. ENSOY DIABÉTICOS LÍQUIDO es rico en proteína,  sus fuentes son proteína aislada de soya, proteína concentrada de leche y proteína de suero lácteo.ENSOY DIABÉTICOS LIQUÍDO con una exclusiva combinación de carbohidratos de lenta absorción,no contiene azúcar,maltodextrinas,fructosaniaspartame.Una porción de ENSOY DIABÉTICOS LIQUÍDO contiene 3 g de fibra dietaria por porción.  Sus fuentes de ácidos grasos son del aceite de canola y el aceite de girasol. ENSOY DIABÉTICOS LIQUÍDOS contiene 12 vitaminas y 13 minerales. Es rico en vitamina A, vitaminaCycomplejoB, ademásesricoencalcio, hierroyzinc.",
 		"composición": "Agua,mal",
-		"presentación": "Tetrapor 200ml sabor a vainilla(Reg.San.RSAV16I72515)"
+		"imagen" : "img/ensoy_niños_fresa.png",
+		 "presentaciones": [
+         {
+            "id": 1,"detalle": "Tetra 200","disponibilidad":
+            [
+            {
+            "eps": "SURA",
+            "codigo": "27596"
+            }
+            ]
+        }
+    	]
 	},
 	{
 		"id": 5,
@@ -80,7 +149,44 @@
 		"composición": "Proteína",
 		"preparacion": "Unaporciónde ENSOY NIÑOS se prepara adicionando a 1 vaso de agua de 190 ml, 3 cucharas medidoras de ENSOY IÑOS. ",
 		"presentación": "Lata por 400 g (sabores)",
-		"imagen": "img/ensoy_niños_fresa.png"
+		"imagen" : "img/ensoy_niños_fresa.png",
+		 "presentaciones": [
+         {
+            "id": 1,"detalle": "Lata 200","disponibilidad":
+            [
+            {
+            "eps": "SURA",
+            "codigo": "27234"
+            }
+            ],
+            "id": 2,"detalle": "Lata 400","disponibilidad":
+            [
+            {
+            "eps": "SURA",
+            "codigo": "27234"
+            },
+            {
+            "eps": "NUEVA EPS",
+            "codigo": "MD.006709"
+            },
+            {
+            "eps": "MUTUAL SER",
+            "codigo": "23056"
+            }
+            ],
+            "id": 3,"detalle": "Lata 900","disponibilidad":
+            [
+            {
+            "eps": "NUEVA EPS",
+            "codigo": "27234"
+            },
+            {
+            "eps": "MUTUAL SER",
+            "codigo": "24836"
+            }
+            ]
+        }
+    	]
 	},
 	{
 		"id": 6,
@@ -90,7 +196,25 @@
 		"preparacion": "Una porción de ENSOY® NIÑOS DEFENSE se prepara adicionando a 1 vaso de agua de 190 ml, 3 cucharas medidoras de ENSOY® NIÑOS DEFENSE. ",
 		"presentación": ": Lata por 400 g (sabor vainilla), rinde 9 porciones. Lata por 900 g (sabor vainilla), rinde 20 porciones (Reg. San. RSAV16I71314).",
 		"invima": "RSAV16I71314",
-		"imagen": "img/defense_ninos.png"
+		"imagen" : "img/defense_ninos.png",
+		"presentaciones": [
+         {
+            "id": 1,"detalle": "Lata 400","disponibilidad":
+            [
+            {
+            "eps": "NUEVA EPS",
+            "codigo": "MD.012138"
+            }
+            ],
+            "id": 1,"detalle": "Lata 900","disponibilidad":
+            [
+            {
+            "eps": "NUEVA EPS",
+            "codigo": "MD.012138"
+            }
+            ]
+        }
+    	]
 	},
 	{
 		"id": 7,
@@ -100,7 +224,17 @@
 		"preparacion": "Para preparar un vaso de ENSOY® NIÑOS SMART, agregue a un vaso 190 ml de agua fría y 3 cucharas medidoras equivalentes a 45 g de ENSOY® NIÑOS SMART. Incluye cuchara medidora.",
 		"presentación": ": Lata por 400 g (sabor vainilla), rinde 9 porciones. (Reg. San. RSAV10I44614).",
 		"invima": "RSAV10I44614",
-		"imagen": "img/ninos_smart.png"
+		"imagen" : "img/ninos_smart.png",
+		"presentaciones": [
+         {
+            "id": 1,"detalle": "Lata 400","disponibilidad":
+            [
+            {
+            
+            }
+            ]
+        }
+    	]
 	},
 	{
 		"id": 8,
@@ -110,7 +244,18 @@
 		"preparacion": "Una porción de ENSOY MET se prepara adicionando a 1 vaso de agua de 210ml,3 cucharas medidoras de ENSOYMET.",
 		"presentación": "Lata por 400 g (sabor vainilla), rinde aproximadamente 10 porciones (Reg. San. RSAV16I73615).",
 		"invima": "RSAV16I73615",
-		"imagen": "img/ensoy_met.png"
+		"imagen" : "img/ensoy_met.png",
+		"presentaciones": [
+         {
+            "id": 1,"detalle": "Lata 400","disponibilidad":
+            [
+            {
+            "eps": "NUEVA EPS",
+            "codigo": "MD. 012240"
+            }
+            ]
+        }
+    	]
 	},
 	{
 		"id": 9,
@@ -120,7 +265,22 @@
 		"preparacion": "Una porción de ENSOY DIGEST  se prepara adicionando a 1 vaso de agua de 200 ml, 3 cucharas medidoras de ENSOY DIGEST.",
 		"presentación": "Lata por 400 g (sabor vainilla), rinde 7 porciones. (Reg. San. RSAV01I53115).",
 		"invima": "RSAV01I53115",
-		"imagen":"img/ensoy_digest.png"
+		"imagen":"img/ensoy_digest.png",
+		"presentaciones": [
+         {
+            "id": 1,"detalle": "Lata 400","disponibilidad":
+            [
+            {
+            "eps": "SURA",
+            "codigo": "27759"
+            },
+            {
+            "eps": "NUEVA EPS",
+            "codigo": "MD. 012086"
+            }
+            ]
+        }
+    	]
 	},
 	{
 		"id": 10,
@@ -140,7 +300,19 @@
 		"preparacion": "Para preparar un vaso de ENSOY DYAL de 250 ml, agregue a un vaso 100 ml de agua fría y 7 cucharas medidoras equivalentes a 71 g de producto. Revuelva hasta formar una pasta homogénea. Adicione el agua restante 90 ml y consuma inmediatamente. Incluye cuchara medidora.",
 		"presentación": "Lata por 400 g (sabor vainilla), rinde aproximadamente 6 porciones. (Reg. San. RSAV04I8915).",
 		"invima": "RSAV04I8915",
-		"imagen":"img/ensoy_predyal.png"
+		"imagen":"img/ensoy_predyal.png",
+		"presentaciones": [
+         {
+            "id": 1,"detalle": "Lata 400","disponibilidad":
+            [
+            {
+            "eps": "SURA",
+            "codigo": "27757"
+            }
+            ]
+        }
+    	]
+
 	},
 	{
 		"id": 12,
@@ -200,6 +372,51 @@
 		"preparacion": "ENSOY® PROTEÍNA por su fácil dilución y sabor neutro, se mezcla fácilmente con cualquier tipo de alimento, especialmente líquidos como: Cremas, gelatinas, jugos, leche, yogurt, salsas, complementos o suplementos nutricionales.",
 		"presentación": "Lata por 275 g, incluye cuchara medidora que pesa 6 g (Reg. San. RSAV 10I20405) y rinde 46 porciones.",
 		"invima": "RSAV 10I20405",
-		"imagen":"img/ensoy_proteina.png"
+		"imagen":"img/ensoy_proteina.png",
+		"presentaciones": [
+         {
+            "id": 1,"detalle": "Lata 275","disponibilidad":
+            [
+            {
+            "eps": "SURA",
+            "codigo": "21826"
+            },
+            {
+            "eps": "SURA PRIMERA OPCION",
+            "codigo": "22116"
+            },
+            {
+            "eps": "NUEVA EPS",
+            "codigo": "MD.008730"
+            },
+            {
+            "eps": "MUTUAL SER",
+            "codigo": "N864054"
+            },
+            {
+            "eps": "COOSALUD",
+            "codigo": "V06DA019252"
+            }
+            ],
+            "id": 2,"detalle": "Lata 400","disponibilidad":
+            [
+            {
+            "eps": "SURA",
+            "codigo": "22015"
+            }
+            ],
+            "id": 3,"detalle": "Lata 400","disponibilidad":
+            [
+            {
+            "eps": "SURA",
+            "codigo": "21425"
+            },
+            {
+            "eps": "SURA",
+            "codigo": "MD.007401"
+            }
+            ]
+        }
+    	]
 	}		
 ]
