@@ -290,7 +290,18 @@
 		"preparacion": "Para preparar un vaso de ENSOY PREDYAL  de 250 ml, agregue a un vaso 100 ml de agua fría y 4 cucharas medidoras equivalentes a 72 g de producto. Revuelva hasta formar una pasta homogénea. Adicione el agua restante 90 ml y consuma inmediatamente. Incluye cuchara medidora.",
 		"presentación": ": Lata por 400 g (sabor vainilla), rinde aproximadamente 6 porciones (Reg. San. RSAV04I9015).",
 		"invima": "RSAV04I9015",
-		"imagen":"img/ensoy_dyal.png"
+		"imagen":"img/ensoy_dyal.png",
+        "presentaciones": [
+         {
+            "id": 1,"detalle": "Lata 400","disponibilidad":
+            [
+            {
+            "eps": "",
+            "codigo": ""
+            }
+            ]
+        }
+        ]
 	},
 	 {
 	 	"id": 11,
@@ -322,7 +333,18 @@
 		"preparacion": "Para preparar un vaso de ENSOY MEMO, agregue a un vaso 200 ml de agua fría y 3 cucharas medidoras equivalentes a 45 g de producto. Incluye cuchara medidora.",
 		"presentación": "Lata por 400 g (sabor vainilla), rinde 9 porciones. (Reg. San. RSAV16I73515).",
 		"invima": "RSAV16I73515",
-		"imagen":"img/ensoy_memo.png"
+		"imagen":"img/ensoy_memo.png",
+        "presentaciones": [
+         {
+            "id": 1,"detalle": "Lata 400","disponibilidad":
+            [
+            {
+            "eps": "SURA",
+            "codigo": "27757"
+            }
+            ]
+        }
+        ]
 	},
 	{
 		"id": 13,
@@ -332,7 +354,22 @@
 		"preparacion": "Para preparar un vaso de ENSOY MEMO, agregue a un vaso 200 ml de agua fría y 3 cucharas medidoras equivalentes a 45 g de producto. Incluye cuchara medidora.",
 		"presentación": "Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV10I44414).",
 		"invima": "RSAV10I44414",
-		"imagen":"img/ensoy_prenatal.png"
+		"imagen":"img/ensoy_prenatal.png",
+        "presentaciones": [
+         {
+            "id": 1,"detalle": "Lata 400","disponibilidad":
+            [
+            {
+            "eps": "SURA",
+            "codigo": "27670"
+            },
+            {
+            "eps": "NUEVA EPS",
+            "codigo": "MD. 012116"
+            }
+            ]
+        }
+        ]
 	},
 	{
 		"id": 14,
@@ -342,7 +379,18 @@
 		"preparacion": "Para preparar un vaso de ENSOY LACTANCIA agregue a un vaso de 210 ml de agua fría 4 cucharas medidoras equivalentes a 40 g de producto. Incluye cuchara medidora.",
 		"presentación": "Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV10I44014).",
 		"invima": "RSAV10I44014",
-		"imagen":"img/ensoy_lactancia.png"
+		"imagen":"img/ensoy_lactancia.png",
+        "presentaciones": [
+         {
+            "id": 1,"detalle": "Lata 400","disponibilidad":
+            [
+            {
+            "eps": "",
+            "codigo": ""
+            }
+            ]
+        }
+        ]
 	},
 	{
 		"id": 15,
@@ -352,7 +400,18 @@
 		"preparacion": "Para preparar un vaso de ENSOY GOLD, agregue a un vaso de 180 ml de agua fría 4 cucharas medidoras equivalentes a 38 g de producto. Incluye cuchara medidora.",
 		"presentación": "Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV03I1214).",
 		"invima": "RSAV03I1214",
-		"imagen":"img/ensoy_gold.png"
+		"imagen":"img/ensoy_gold.png",
+        "presentaciones": [
+         {
+            "id": 1,"detalle": "Lata 400","disponibilidad":
+            [
+            {
+            "eps": "",
+            "codigo": ""
+            }
+            ]
+        }
+        ]
 	},
 	{
 		"id": 16,
@@ -362,7 +421,18 @@
 		"preparacion": "Para preparar un vaso de ENSOY RECOVER de 220ml, agregue a un vaso 100 ml de agua fría y 6 cucharas medidoras equivalentes a 73 g del producto, revolver hasta formar una pasta homogénea, y luego añada el resto de agua 100 ml. Incluye cuchara medidora.",
 		"presentación": ": Lata por 400 g (sabor vainilla), rinde 5 porciones. (Reg. San. RSAV04I8715).",
 		"invima": "RSAV04I8715",
-		"imagen":"img/ensoy_recover"
+		"imagen":"img/ensoy_recover",
+        "presentaciones": [
+         {
+            "id": 1,"detalle": "Lata 400","disponibilidad":
+            [
+            {
+            "eps": "",
+            "codigo": ""
+            }
+            ]
+        }
+        ]
 	},
 	{
 		"id": 17,
