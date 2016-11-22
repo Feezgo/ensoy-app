@@ -9,6 +9,25 @@
      height: 350px;
 }
 
+.boton-detalles{
+border-radius: 50px;
+border-width: 0px;
+background-color: #53c2e3;
+color: white;
+padding: 7px;
+width: 116px;
+margin-bottom: 40px;
+}
+
+
+.detalles-ul{
+    list-style: none;
+    color: white;
+    background: #53c2e3;
+    padding: 10px;
+    
+}
+
 .img-home{
 
     width: 76%;

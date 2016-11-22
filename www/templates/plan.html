@@ -8,6 +8,7 @@
 	    </div>
 	    <div class="producto-msg-title">
 			{{ producto.nombre }}
+			{{ presentacion.detalle }}
 		</div>
 		<div class="slider-productos">
 		    <div class="detalles-imagen">
@@ -15,8 +16,8 @@
 			</div>
 		</div>
 		<div>
-			{{ presentacion.detalle }}
-			<ul>
+			
+			<ul class="detalles-ul">
 				<li ng-repeat="disponibilidad in presentacion.disponibilidad">{{ disponibilidad.eps+" "+disponibilidad.codigo }}</li>
 			</ul>
 		</div>
