@@ -16,9 +16,9 @@
 			</div>
 		</div>
 		<div>
-				<select ng-model="plan.numero_meses" class="select-blue">
-                <option value="" disabled selected>Selecione una eps </option>
-                <option ng-repeat="disponibilidad in presentacion.disponibilidad">{{ disponibilidad.eps+" "+disponibilidad.codigo }}</option>	
+				<select class="select-blue">
+	                <option value="" disabled selected>Selecione una eps </option>
+	                <option ng-repeat="disponibilidad in presentacion.disponibilidad">{{ disponibilidad.eps+" "+disponibilidad.codigo }}</option>	
             	</select>
 		</div>
     </ion-content>
