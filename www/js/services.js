@@ -9,13 +9,13 @@ angular.module('starter.services', [])
     }
 })
 .factory('$plan', function(){
-	var plan = {
+	return {
 		id_producto: 0,
 		id_presentacion: '',
 		numero_tomas_dia: '',
 		numero_meses: ''
 	}
-
+	/*
 	return {
 		getPlan: function()
 		{
@@ -24,6 +24,15 @@ angular.module('starter.services', [])
 		setPlan: function(nuevoplan)
 		{
 			plan = nuevoplan;
+		},
+		resetPlan: function()
+		{
+			plan = {
+				id_producto: 0,
+				id_presentacion: '',
+				numero_tomas_dia: '',
+				numero_meses: ''
+			};
 		}
-	}
+	}*/
 });

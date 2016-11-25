@@ -43,6 +43,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 	.state('plan', 
 	{
 		url: '/plan',
+		reload: true,
 		templateUrl: 'templates/plan.html',
 		controller: 'PlanCtrl'
 	});

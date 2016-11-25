@@ -3,8 +3,14 @@ angular.module('starter.controllers', [])
 {
 	
 })
-.controller('ProductosCtrl', function($scope, $ensoy, $location)
+.controller('ProductosCtrl', function($scope, $ensoy, $plan, $location)
 {
+	$scope.plan = $plan;
+	$scope.plan.id_producto = '';
+	$scope.plan.id_presentacion = '';
+	$scope.plan.numero_tomas_dia = '';
+	$scope.plan.numero_meses = '';
+
 	$ensoy.productos().then(function(data)
 	{
 		$scope.productos = data;
@@ -12,16 +18,15 @@ angular.module('starter.controllers', [])
 })
 .controller('DetallesCtrl', function($scope, $ensoy, $plan, $stateParams, $filter, $location, $ionicPopup)
 {
-	$scope.plan = {
-		id_producto: $stateParams.id,
-		id_presentacion: '',
-		numero_tomas_dia: '',
-		numero_meses: ''
-	};
+	$scope.plan = $plan;
+	$scope.plan.id_producto = $stateParams.id;
+	$scope.plan.id_presentacion = '';
+	$scope.plan.numero_tomas_dia = '';
+	$scope.plan.numero_meses = '';
 
 	$scope.actualizarplan = function()
 	{
-		$plan.setPlan($scope.plan);
+		console.log('DetallesCtrl.actualizarplan', $scope.plan);
 	};
 
 	$scope.verplan = function () 
@@ -55,10 +60,10 @@ angular.module('starter.controllers', [])
 })
 .controller('PlanCtrl', function($scope, $ensoy, $plan, $filter)
 {
-	$scope.plan = $plan.getPlan();
-
 	$ensoy.productos().then(function(data)
 	{
+		$scope.plan = $plan;
+		console.log('PlanCtrl', $scope.plan);
 		producto = $filter('filter')(data, function(o)
 		{
 			return o.id == $scope.plan.id_producto;
