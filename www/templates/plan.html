@@ -8,17 +8,30 @@
 	    </div>
 	    <div class="producto-msg-title">
 			{{ producto.nombre }}
-			{{ presentacion.detalle }}
 		</div>
 		<div class="slider-productos">
 		    <div class="detalles-imagen">
-				<img  class="productos-imagen-home" src="{{ producto.imagen }}">
+				<img   class="productos-imagen-detalles" src="{{ producto.imagen }}">
 			</div>
 		</div>
-		<div>
-				<select class="select-blue" ng-model="modeloeps" ng-options="disponibilidad as disponibilidad.eps for disponibilidad in presentacion.disponibilidad" ng-change="obtener()" >
-            	</select>
+		<div class="form-container"> 
+			<div class="datos">
+				<div class="box1"> 
+					<p>Total</p>
+					<h1>62</h1>
+					<p>Latas del tratamiento</p>
+				</div>
+				<div class="box2">
+				    <p>Número de tomas al dia: <stron>{{plan.numero_tomas_dia}}</strong></p>
+				    <p>Número de meses: <strong>{{plan.numero_meses}}</strong></p>
+				    <p>Presentación: <strong>{{presentacion.detalle}}</strong></p>
+				</div>
+			</div>
+			<p class="eps-text">Selecccione la eps para obtener codigo de producto:</p>
+			<select class="select-blue" ng-model="modeloeps" ng-options="disponibilidad as disponibilidad.eps for disponibilidad in presentacion.disponibilidad" ng-change="obtener()" >
+            </select>
+            <p class="codigo-text"><strong>Codigo {{modeloeps.codigo}}</strong></p>
 		</div>
-		<p><strong>Codigo de eps: {{modeloeps.codigo}}</strong></p>
+		
 	</ion-content>
 </ion-view>
