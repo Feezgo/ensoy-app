@@ -59,7 +59,8 @@ angular.module('starter.controllers', [])
 	});
 })
 .controller('PlanCtrl', function($scope, $ensoy, $plan, $filter)
-{
+{	
+
 	$ensoy.productos().then(function(data)
 	{
 		$scope.plan = $plan;
@@ -77,4 +78,9 @@ angular.module('starter.controllers', [])
 		$scope.producto = producto;
 		$scope.presentacion = presentacion;
 	});
+
+	$scope.obtener = function() {
+
+    	console.log($scope.modeloeps.codigo, $scope.modeloeps.eps)
+	}
 });

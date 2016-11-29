@@ -16,10 +16,9 @@
 			</div>
 		</div>
 		<div>
-				<select class="select-blue">
-	                <option value="" disabled selected>Selecione una eps </option>
-	                <option ng-repeat="disponibilidad in presentacion.disponibilidad">{{ disponibilidad.eps+" "+disponibilidad.codigo }}</option>	
+				<select class="select-blue" ng-model="modeloeps" ng-options="disponibilidad as disponibilidad.eps for disponibilidad in presentacion.disponibilidad" ng-change="obtener()" >
             	</select>
 		</div>
-    </ion-content>
+		<p><strong>Codigo de eps: {{modeloeps.codigo}}</strong></p>
+	</ion-content>
 </ion-view>
