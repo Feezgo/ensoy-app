@@ -11,12 +11,9 @@
             "id": 1,"detalle": "lata 400","disponibilidad":
             [
             {
-            "eps": "FMP MAGISTERIO",
-            "codigo": "COA11AS031191"
-            },
-            {
             "eps": "SURA PRIMERA OPCION",
-            "codigo": "COA11AS031191"
+            "codigo": "COA11AS031191",
+            "porciones":
             },
             {
             "eps": "COOSALUD",
@@ -45,10 +42,6 @@
             "disponibilidad":
             [
             {
-            "eps": "O. CLINICA GENERAL DEL NORTE",
-            "codigo": "26717"
-            },
-            {
             "eps": "SURA PRIMERA OPCION",
             "codigo": "N877346"
             },
@@ -68,80 +61,16 @@
            }
     ]
 },
-	{
-		"id": 2,
-		"nombre": "ENSOY DULTOS LÍQUIDO",
-		"descripción": "ENSOY LÍQUIDO es un complemento nutricional líquido balanceado diseñado para incluir en la alimentación de aquellas personas que requieren enriquecer su dieta con macro y micronutrientes. Contiene proteína de alta calidad y digestibilidad (Proteína Aislada de Soya), naturalmente libre de colesterol, de lactosa y de gluten, libre de grasas trans.",
-		"composición": "Agua, maltodextrina, proteína aislada de soya (proteína aislada de soya, fosfato de calcio, lecitina de soya emulsionante), azúcar, aceite de canola, fibra de soya, aceite de soya, polidextrosa, lecitina de soya (emulsionante), sabores artificiales (vainilla), mezcla de estabilizantes (celulosa microcristalina, goma celulosa, carragenina), premezcla vitaminas y minerales (fosfato de magnesio, ascorbato de sodio, niacinamida, sulfato de zinc, vitamina E, sulfato ferroso, D-Pantotenato de calcio, sulfato de manganeso, vitamina A palmitato, piridoxina clorhidrato, riboflavina, tiamina clorhidrato, gluconato de cobre, ácido fólico, yoduro de potasio, D-Biotina, molibdato de sodio, selenito de sodio, cloruro de cromo, vitamina D3, vitamina B12), citrato de potasio, citrato de sodio (regulador de pH), sucralosa (edulcorante artificial).",
-		"invima": "RSAZ10I5014",
-		"imagen" : "img/ensoy_adultos.png",
-		 "presentaciones": [
-         	{
-            "id": 1,"detalle": "lata 900","disponibilidad":
-            [
-            {
-            "eps": "FMP MAGISTERIO",
-            "codigo": "COA11AS031191"
-            },
-            {
-            "eps": "SURA PRIMERA OPCION",
-            "codigo": "COA11AS031191"
-            },
-            {
-            "eps": "COOSALUD",
-            "codigo": "V06DA018252"
-            }
-            ]
-           	},
-        	{
-            "id": 2,
-            "detalle": "lata 900",
-            "disponibilidad":
-            [
-            {
-            "eps": "MUTUAL SER",
-            "codigo": "26717"
-            },
-            {
-            "eps": "SURA PRIMERA OPCION",
-            "codigo": "N877346"
-            },
-            {
-            "eps": "COOSALUD",
-            "codigo": "V06DA018252"
-            }
-            ]
-           }
-    ]
-
-	},
+	
 	{
 		"id": 3,
 		"nombre": "Ensoy Diabéticos",
 		"descripción": " ENSOY DIABÉTICOS es el complemento nutricional de bajo índice glicémico (IG 47) especializado para Diabéticos, libre de azúcar añadido, endulzado con maltitol. ENSOYDIABÉTICOS es ricoenproteínas usfuentes son: proteínaaisladadesoya,proteínadesuerolácteo,además contiene aceite de canola y girasol,omega3,relacióno mega6/omega3(3: 1),        fibraFOS(fructo-oligosacáridos),12 vitaminas y 13minerales.",
 		"composición": "Maltitol",
 		"preparacion": "Una porción de ENSOY DIABÉTICOS se prepara adicionando a un vaso de agua de 210 ml, 4 cucharas medidoras de ENSOY DIABÉTICOS.",
-		"presentación": "Lata por 400 g (sabore Omega 3: 300 mg/porción Omega 6: 970 mg/porción)",
 		"imagen": "img/diabeticos_vainilla.png"
 	},
-	{
-		"id": 4,
-		"nombre": "ENSOY DIABÉTICOS LÍQUIDO",
-		"descripción": "ENSOY DIABÉTICOS LÍQUIDO es un complemento nutricional de bajo índice glicémico (IG40) especializado para Diabéticos. ENSOY DIABÉTICOS LÍQUIDO es rico en proteína,  sus fuentes son proteína aislada de soya, proteína concentrada de leche y proteína de suero lácteo.ENSOY DIABÉTICOS LIQUÍDO con una exclusiva combinación de carbohidratos de lenta absorción,no contiene azúcar,maltodextrinas,fructosaniaspartame.Una porción de ENSOY DIABÉTICOS LIQUÍDO contiene 3 g de fibra dietaria por porción.  Sus fuentes de ácidos grasos son del aceite de canola y el aceite de girasol. ENSOY DIABÉTICOS LIQUÍDOS contiene 12 vitaminas y 13 minerales. Es rico en vitamina A, vitaminaCycomplejoB, ademásesricoencalcio, hierroyzinc.",
-		"composición": "Agua,mal",
-		"imagen" : "img/ensoy_niños_fresa.png",
-		 "presentaciones": [
-         {
-            "id": 1,"detalle": "Tetra 200","disponibilidad":
-            [
-            {
-            "eps": "SURA",
-            "codigo": "27596"
-            }
-            ]
-        }
-    	]
-	},
+	
 	{
 		"id": 5,
 		"nombre": "ENSOY NIÑOS",
@@ -268,7 +197,10 @@
 		"imagen":"img/ensoy_digest.png",
 		"presentaciones": [
          {
-            "id": 1,"detalle": "Lata 400","disponibilidad":
+            "id": 1,
+            "detalle": "Lata 400",
+            "porciones":7,
+            "disponibilidad":
             [
             {
             "eps": "SURA",
@@ -293,7 +225,10 @@
 		"imagen":"img/ensoy_dyal.png",
         "presentaciones": [
          {
-            "id": 1,"detalle": "Lata 400","disponibilidad":
+            "id": 1,
+            "detalle": "Lata 400",
+            "porciones":7,
+            "disponibilidad":
             [
             {
             "eps": "",
@@ -314,7 +249,10 @@
 		"imagen":"img/ensoy_predyal.png",
 		"presentaciones": [
          {
-            "id": 1,"detalle": "Lata 400","disponibilidad":
+            "id": 1,
+            "detalle": "Lata 400",
+            "porciones":7,
+            "disponibilidad":
             [
             {
             "eps": "SURA",
@@ -336,7 +274,10 @@
 		"imagen":"img/ensoy_memo.png",
         "presentaciones": [
          {
-            "id": 1,"detalle": "Lata 400","disponibilidad":
+            "id": 1,
+            "detalle": "Lata 400",
+            "porciones":7,
+            "disponibilidad":
             [
             {
             "eps": "SURA",
@@ -357,7 +298,10 @@
 		"imagen":"img/ensoy_prenatal.png",
         "presentaciones": [
          {
-            "id": 1,"detalle": "Lata 400","disponibilidad":
+            "id": 1,
+            "detalle": "Lata 400",
+            "porciones":7,
+            "disponibilidad":
             [
             {
             "eps": "SURA",
@@ -382,7 +326,10 @@
 		"imagen":"img/ensoy_lactancia.png",
         "presentaciones": [
          {
-            "id": 1,"detalle": "Lata 400","disponibilidad":
+            "id": 1,
+            "detalle": "Lata 400",
+            "porciones":7,
+            "disponibilidad":
             [
             {
             "eps": "",
@@ -403,7 +350,10 @@
 		"imagen":"img/ensoy_gold.png",
         "presentaciones": [
          {
-            "id": 1,"detalle": "Lata 400","disponibilidad":
+            "id": 1,
+            "detalle": "Lata 400",
+            "porciones":7,
+            "disponibilidad":
             [
             {
             "eps": "",
@@ -424,7 +374,10 @@
 		"imagen":"img/ensoy_recover",
         "presentaciones": [
          {
-            "id": 1,"detalle": "Lata 400","disponibilidad":
+            "id": 1,
+            "detalle": "Lata 400",
+            "porciones":7,
+            "disponibilidad":
             [
             {
             "eps": "",
@@ -445,7 +398,10 @@
 		"imagen":"img/ensoy_proteina.png",
 		"presentaciones": [
          {
-            "id": 1,"detalle": "Lata 275","disponibilidad":
+            "id": 1,
+            "detalle": "Lata 275",
+            "porciones":46,
+            "disponibilidad":
             [
             {
             "eps": "SURA",
@@ -468,14 +424,20 @@
             "codigo": "V06DA019252"
             }
             ],
-            "id": 2,"detalle": "Lata 400","disponibilidad":
+            "id": 2,
+            "detalle": "Lata 400",
+            "porciones":7,
+            "disponibilidad":
             [
             {
             "eps": "SURA",
             "codigo": "22015"
             }
             ],
-            "id": 3,"detalle": "Lata 400","disponibilidad":
+            "id": 3,
+            "detalle": "Lata 400",
+            "porciones":7,
+            "disponibilidad":
             [
             {
             "eps": "SURA",
