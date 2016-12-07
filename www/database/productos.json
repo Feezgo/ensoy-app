@@ -25,7 +25,7 @@
          {
             "id":2,
             "detalle":"lata 900",
-            "porciones":7,
+            "porciones":15,
             "disponibilidad":[
                {
                   "eps":"MUTUAL SER",
@@ -40,7 +40,7 @@
          {
             "id":3,
             "detalle":"lata 1000",
-            "porciones":7,
+            "porciones":17,
             "disponibilidad":[
                {
                   "eps":"SURA PRIMERA OPCION",
@@ -68,20 +68,76 @@
       "descripción":" ENSOY DIABÉTICOS es el complemento nutricional de bajo índice glicémico (IG 47) especializado para Diabéticos, libre de azúcar añadido, endulzado con maltitol. ENSOYDIABÉTICOS es ricoenproteínas usfuentes son: proteínaaisladadesoya,proteínadesuerolácteo,además contiene aceite de canola y girasol,omega3,relacióno mega6/omega3(3: 1),        fibraFOS(fructo-oligosacáridos),12 vitaminas y 13minerales.",
       "composición":"Maltitol",
       "preparacion":"Una porción de ENSOY DIABÉTICOS se prepara adicionando a un vaso de agua de 210 ml, 4 cucharas medidoras de ENSOY DIABÉTICOS.",
-      "imagen":"img/diabeticos_vainilla.png"
+      "imagen":"img/diabeticos_vainilla.png",
+      "presentaciones":[
+         {
+            "id":1,
+            "detalle":"lata 400",
+            "porciones":7,
+            "disponibilidad":[
+               {
+                  "eps":"SURA PRIMERA OPCION",
+                  "codigo":"COA11AS031191"
+               },
+               {
+                  "eps":"COOSALUD",
+                  "codigo":"V06DA018252"
+               }
+            ]
+         },
+         {
+            "id":2,
+            "detalle":"lata 900",
+            "porciones":15,
+            "disponibilidad":[
+               {
+                  "eps":"MUTUAL SER",
+                  "codigo":"26717"
+               },
+               {
+                  "eps":"SURA PRIMERA OPCION",
+                  "codigo":"N877346"
+               }
+            ]
+         },
+         {
+            "id":3,
+            "detalle":"lata 1000",
+            "porciones":17,
+            "disponibilidad":[
+               {
+                  "eps":"SURA PRIMERA OPCION",
+                  "codigo":"N877346"
+               },
+               {
+                  "eps":"COOSALUD",
+                  "codigo":"N877346"
+               },
+               {
+                  "eps":"SURA PRIMERA OPCION",
+                  "codigo":"24502"
+               },
+               {
+                  "eps":"SURA PRIMERA OPCION",
+                  "codigo":"26293"
+               }
+            ]
+         }
+      ]
    },
    {
       "id":5,
       "nombre":"ENSOY NIÑOS",
       "descripción":"ENSOY NIÑOS es un alimento en polvo diseñado para complementar la alimentación de los niños 2-12 años que no comen bien o que requieren enriquecer la dieta con macronutrientes y micronutrientes. Contiene proteína de alta calidad(Proteína Aislada de Soya),13 vitaminas y 14 minerales, Naturalmente libre de colesterol,lactosaygluten.",
       "composición":"Proteína",
-      "preparacion":"Unaporciónde ENSOY NIÑOS se prepara adicionando a 1 vaso de agua de 190 ml, 3 cucharas medidoras de ENSOY IÑOS. ",
+      "preparacion":"Unaporciónde ENSOY NIÑOS se prepara adicionando a 1 vaso de agua de 190 ml, 3 cucharas medidoras de ENSOY NIÑOS. ",
       "presentación":"Lata por 400 g (sabores)",
       "imagen":"img/ensoy_niños_fresa.png",
       "presentaciones":[
          {
             "id":1,
             "detalle":"Lata 200",
+            "porciones":4,
             "disponibilidad":[
                {
                   "eps":"SURA",
@@ -90,6 +146,7 @@
             ],
             "id":2,
             "detalle":"Lata 400",
+            "porciones":9,
             "disponibilidad":[
                {
                   "eps":"SURA",
@@ -106,6 +163,7 @@
             ],
             "id":3,
             "detalle":"Lata 900",
+            "porciones":20,
             "disponibilidad":[
                {
                   "eps":"NUEVA EPS",
@@ -132,6 +190,7 @@
          {
             "id":1,
             "detalle":"Lata 400",
+            "porciones":9,
             "disponibilidad":[
                {
                   "eps":"NUEVA EPS",
@@ -140,6 +199,7 @@
             ],
             "id":1,
             "detalle":"Lata 900",
+            "porciones":20,
             "disponibilidad":[
                {
                   "eps":"NUEVA EPS",
@@ -162,6 +222,7 @@
          {
             "id":1,
             "detalle":"Lata 400",
+            "porciones":9,
             "disponibilidad":[
                {
 
@@ -183,7 +244,7 @@
          {
             "id":1,
             "detalle":"Lata 400",
-            "porciones":4,
+            "porciones":10,
             "disponibilidad":[
                {
                   "eps":"NUEVA EPS",
