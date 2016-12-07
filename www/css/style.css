@@ -195,7 +195,11 @@
     /*border-bottom-color: #b6af29;
     border-bottom-width: 1px;
     border-bottom-style: solid;*/
-    height: 57px;
+    height: 77px;
+    background-image: url("../img/header.png");
+    background-position: center top;
+    background-size: 100% 104%;
+    background-repeat: no-repeat;
 
 }
 
@@ -289,11 +293,4 @@ padding: 5px 5px 5px 5px;
 
 div.form-container {
     margin: 9%;
-}
-
-.pane {
-    background-image: url("../img/header.png");
-    background-position: center top;
-    background-size: 100% 15%;
-    background-repeat: no-repeat;
 }
