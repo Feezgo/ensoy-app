@@ -10,11 +10,11 @@
          {
             "id":1,
             "detalle":"lata 400",
+            "porciones":7,
             "disponibilidad":[
                {
                   "eps":"SURA PRIMERA OPCION",
-                  "codigo":"COA11AS031191",
-                  "porciones":
+                  "codigo":"COA11AS031191"
                },
                {
                   "eps":"COOSALUD",
@@ -25,6 +25,7 @@
          {
             "id":2,
             "detalle":"lata 900",
+            "porciones":7,
             "disponibilidad":[
                {
                   "eps":"MUTUAL SER",
@@ -39,6 +40,7 @@
          {
             "id":3,
             "detalle":"lata 1000",
+            "porciones":7,
             "disponibilidad":[
                {
                   "eps":"SURA PRIMERA OPCION",
@@ -181,6 +183,7 @@
          {
             "id":1,
             "detalle":"Lata 400",
+            "porciones":4,
             "disponibilidad":[
                {
                   "eps":"NUEVA EPS",

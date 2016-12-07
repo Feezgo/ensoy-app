@@ -60,9 +60,9 @@ angular.module('starter.controllers', [])
 })
 .controller('PlanCtrl', function($scope, $ensoy, $plan, $filter)
 {	
-
 	$ensoy.productos().then(function(data)
 	{
+		$scope.latas = 0;
 		$scope.plan = $plan;
 		console.log('PlanCtrl', $scope.plan);
 		producto = $filter('filter')(data, function(o)
@@ -75,12 +75,12 @@ angular.module('starter.controllers', [])
 			return o.id == $scope.plan.id_presentacion;
 		})[0]
 
+		$scope.latas = Math.ceil((($plan.numero_meses * 30) * $plan.numero_tomas_dia) / (presentacion.porciones ? presentacion.porciones : 1));
 		$scope.producto = producto;
 		$scope.presentacion = presentacion;
 	});
 
 	$scope.obtener = function() {
-
     	console.log($scope.modeloeps.codigo, $scope.modeloeps.eps)
 	}
 });
