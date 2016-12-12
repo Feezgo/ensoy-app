@@ -9,13 +9,15 @@
      	<div class="producto-msg-title">
 			{{ producto.nombre }}
     	</div>
+        <div class="form-container">
+            <a class="button button-small button-icon icon ion-ios-information-outline" ng-click="mostrarInformacionNutricional()"> información nutricional</a>
+        </div>
     	<div class="slider-productos">
 		    <div class="detalles-imagen">
 				<img class="productos-imagen-home" src="{{ producto.imagen }}">
-			</div>
+            </div>
 		</div>
         <div class="form-container">
-            <button ng-click="mostrarInformacionNutricional()">info</button>
             <select ng-model="plan.numero_tomas_dia" class="select-blue" ng-change="actualizarplan()">
                 <option value="" disabled selected>Número de tomas al dia</option>
                 <option value="1">1</option>
