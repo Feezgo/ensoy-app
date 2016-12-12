@@ -16,7 +16,7 @@ angular.module('starter.controllers', [])
 		$scope.productos = data;
 	});
 })
-.controller('DetallesCtrl', function($scope, $ensoy, $plan, $stateParams, $filter, $location, $ionicPopup)
+.controller('DetallesCtrl', function($scope, $ensoy, $plan, $stateParams, $filter, $location, $ionicPopup, $ionicModal)
 {
 	$scope.plan = $plan;
 	$scope.plan.id_producto = $stateParams.id;
@@ -28,6 +28,26 @@ angular.module('starter.controllers', [])
 	{
 		console.log('DetallesCtrl.actualizarplan', $scope.plan);
 	};
+
+	$ionicModal.fromTemplateUrl('image-modal.html', {
+		scope: $scope,
+		animation: 'slide-in-up'
+    }).then(function(modal) {
+		$scope.modal = modal;
+    });
+
+    $scope.closeModal = function() {
+		$scope.modal.hide();
+    };
+
+    $scope.$on('$destroy', function() {
+		$scope.modal.remove();
+    });
+
+	$scope.mostrarInformacionNutricional = function()
+	{
+		$scope.modal.show();
+	}
 
 	$scope.verplan = function () 
 	{

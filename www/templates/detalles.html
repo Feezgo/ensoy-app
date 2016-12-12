@@ -11,10 +11,11 @@
     	</div>
     	<div class="slider-productos">
 		    <div class="detalles-imagen">
-				<img  class="productos-imagen-home" src="{{ producto.imagen }}">
+				<img class="productos-imagen-home" src="{{ producto.imagen }}">
 			</div>
 		</div>
         <div class="form-container">
+            <button ng-click="mostrarInformacionNutricional()">info</button>
             <select ng-model="plan.numero_tomas_dia" class="select-blue" ng-change="actualizarplan()">
                 <option value="" disabled selected>Número de tomas al dia</option>
                 <option value="1">1</option>
@@ -49,5 +50,12 @@
             </div>
             <button class="boton-detalles" ng-click="verplan()">Continuar</button>
         </div>
+        <script id="image-modal.html" type="text/ng-template">
+              <div class="modal image-modal transparent" ng-click="closeModal()">
+                  <ion-pane class="transparent">
+                     <img src="{{ producto.nutricional }}" class="fullscreen-image"/>
+                  </ion-pane>
+              </div>
+          </script>
     </ion-content>
 </ion-view>
