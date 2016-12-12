@@ -6,6 +6,7 @@
       "composición":"Maltodext",
       "preparacion":"Una porción de ENSOY e prepara adicionando a 1 vaso de agua de 200 ml, 4 cucharas medidoras de ENSOY",
       "imagen":"img/ensoy_adultos.png",
+      "nutricional":"img/nutricional/Ensoy.jpg",
       "presentaciones":[
          {
             "id":1,
@@ -69,6 +70,7 @@
       "composición":"Maltitol",
       "preparacion":"Una porción de ENSOY DIABÉTICOS se prepara adicionando a un vaso de agua de 210 ml, 4 cucharas medidoras de ENSOY DIABÉTICOS.",
       "imagen":"img/diabeticos_vainilla.png",
+      "nutricional":"img/nutricional/Ensoy_Diabeticos.jpg",
       "presentaciones":[
          {
             "id":1,
@@ -133,6 +135,7 @@
       "preparacion":"Unaporciónde ENSOY NIÑOS se prepara adicionando a 1 vaso de agua de 190 ml, 3 cucharas medidoras de ENSOY NIÑOS. ",
       "presentación":"Lata por 400 g (sabores)",
       "imagen":"img/ensoy_niños_fresa.png",
+      "nutricional":"img/nutricional/Ensoy_Ninos.jpg",
       "presentaciones":[
          {
             "id":1,
@@ -186,6 +189,7 @@
       "presentación":": Lata por 400 g (sabor vainilla), rinde 9 porciones. Lata por 900 g (sabor vainilla), rinde 20 porciones (Reg. San. RSAV16I71314).",
       "invima":"RSAV16I71314",
       "imagen":"img/defense_ninos.png",
+      "nutricional":"img/nutricional/Ensoy_Ninos_Defense.jpg",
       "presentaciones":[
          {
             "id":1,
@@ -218,6 +222,7 @@
       "presentación":": Lata por 400 g (sabor vainilla), rinde 9 porciones. (Reg. San. RSAV10I44614).",
       "invima":"RSAV10I44614",
       "imagen":"img/ninos_smart.png",
+      "nutricional":"img/nutricional/Ensoy_Ninos_Smart.jpg",
       "presentaciones":[
          {
             "id":1,
@@ -240,6 +245,7 @@
       "presentación":"Lata por 400 g (sabor vainilla), rinde aproximadamente 10 porciones (Reg. San. RSAV16I73615).",
       "invima":"RSAV16I73615",
       "imagen":"img/ensoy_met.png",
+      "nutricional":"img/nutricional/Ensoy_Met.jpg",
       "presentaciones":[
          {
             "id":1,
@@ -263,6 +269,7 @@
       "presentación":"Lata por 400 g (sabor vainilla), rinde 7 porciones. (Reg. San. RSAV01I53115).",
       "invima":"RSAV01I53115",
       "imagen":"img/ensoy_digest.png",
+      "nutricional":"img/nutricional/Ensoy_Digest.jpg",
       "presentaciones":[
          {
             "id":1,
@@ -290,6 +297,7 @@
       "presentación":": Lata por 400 g (sabor vainilla), rinde aproximadamente 6 porciones (Reg. San. RSAV04I9015).",
       "invima":"RSAV04I9015",
       "imagen":"img/ensoy_dyal.png",
+      "nutricional":"img/nutricional/Ensoy_Dyal.jpg",
       "presentaciones":[
          {
             "id":1,
@@ -313,6 +321,7 @@
       "presentación":"Lata por 400 g (sabor vainilla), rinde aproximadamente 6 porciones. (Reg. San. RSAV04I8915).",
       "invima":"RSAV04I8915",
       "imagen":"img/ensoy_predyal.png",
+      "nutricional":"img/nutricional/Ensoy_PreDyal.jpg",
       "presentaciones":[
          {
             "id":1,
@@ -336,6 +345,7 @@
       "presentación":"Lata por 400 g (sabor vainilla), rinde 9 porciones. (Reg. San. RSAV16I73515).",
       "invima":"RSAV16I73515",
       "imagen":"img/ensoy_memo.png",
+      "nutricional":"img/nutricional/Ensoy_Memo.jpg",
       "presentaciones":[
          {
             "id":1,
@@ -359,6 +369,7 @@
       "presentación":"Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV10I44414).",
       "invima":"RSAV10I44414",
       "imagen":"img/ensoy_prenatal.png",
+      "nutricional":"img/nutricional/Ensoy_Prenatal.jpg",
       "presentaciones":[
          {
             "id":1,
@@ -386,6 +397,7 @@
       "presentación":"Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV10I44014).",
       "invima":"RSAV10I44014",
       "imagen":"img/ensoy_lactancia.png",
+      "nutricional":"",
       "presentaciones":[
          {
             "id":1,
@@ -409,6 +421,7 @@
       "presentación":"Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV03I1214).",
       "invima":"RSAV03I1214",
       "imagen":"img/ensoy_gold.png",
+      "nutricional":"",
       "presentaciones":[
          {
             "id":1,
@@ -432,6 +445,7 @@
       "presentación":": Lata por 400 g (sabor vainilla), rinde 5 porciones. (Reg. San. RSAV04I8715).",
       "invima":"RSAV04I8715",
       "imagen":"img/ensoy_recover.png",
+      "nutricional":"img/nutricional/Ensoy_Recover.jpg",
       "presentaciones":[
          {
             "id":1,
@@ -455,6 +469,7 @@
       "presentación":"Lata por 275 g, incluye cuchara medidora que pesa 6 g (Reg. San. RSAV 10I20405) y rinde 46 porciones.",
       "invima":"RSAV 10I20405",
       "imagen":"img/ensoy_proteina.png",
+      "nutricional":"img/nutricional/Ensoy_Proteina.jpg",
       "presentaciones":[
          {
             "id":1,
