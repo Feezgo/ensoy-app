@@ -397,7 +397,7 @@
       "presentación":"Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV10I44014).",
       "invima":"RSAV10I44014",
       "imagen":"img/ensoy_lactancia.png",
-      "nutricional":"",
+      "nutricional":"img/nutricional/14_nutricional.png",
       "presentaciones":[
          {
             "id":1,
@@ -421,7 +421,7 @@
       "presentación":"Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV03I1214).",
       "invima":"RSAV03I1214",
       "imagen":"img/ensoy_gold.png",
-      "nutricional":"",
+      "nutricional":"img/nutricional/15_nutricional.png",
       "presentaciones":[
          {
             "id":1,
