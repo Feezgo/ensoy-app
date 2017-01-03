@@ -15,11 +15,11 @@
             "disponibilidad":[
                {
                   "eps":"SURA PRIMERA OPCION",
-                  "codigo":"COA11AS031191"
+                  "codigo":"21568 - 23346"
                },
                {
-                  "eps":"COOSALUD",
-                  "codigo":"V06DA018252"
+                  "eps":"NUEVA EPS",
+                  "codigo":"MD.000877-004731-006405-006406-007403"
                }
             ]
          },
@@ -29,12 +29,8 @@
             "porciones":15,
             "disponibilidad":[
                {
-                  "eps":"MUTUAL SER",
-                  "codigo":"26717"
-               },
-               {
                   "eps":"SURA PRIMERA OPCION",
-                  "codigo":"N877346"
+                  "codigo":"26717"
                }
             ]
          },
@@ -79,11 +75,31 @@
             "disponibilidad":[
                {
                   "eps":"SURA PRIMERA OPCION",
-                  "codigo":"COA11AS031191"
+                  "codigo":"27596"
                },
                {
-                  "eps":"COOSALUD",
-                  "codigo":"V06DA018252"
+                  "eps":"EPSIFARMA",
+                  "codigo":"14908.0-14908.1"
+               },
+               {
+                  "eps":"CAFESALUD",
+                  "codigo":"39309-14908"
+               },
+               {
+                  "eps":"EMSSANAR",
+                  "codigo":"103990-106324"
+               },
+               {
+                  "eps":"SAVIA SALUD EPS",
+                  "codigo":"4973"
+               },
+               {
+                  "eps":"MUTUAL SER",
+                  "codigo":"N859384"
+               },
+               {
+                  "eps":"NUEVA EPS",
+                  "codigo":"MD.0D6193-MD.0064475-MD.007345"
                }
             ]
          },
@@ -94,11 +110,11 @@
             "disponibilidad":[
                {
                   "eps":"MUTUAL SER",
-                  "codigo":"26717"
+                  "codigo":"N877611"
                },
                {
-                  "eps":"SURA PRIMERA OPCION",
-                  "codigo":"N877346"
+                  "eps":"COOSALUD",
+                  "codigo":"I00000001389-V06DA012252"
                }
             ]
          },
@@ -109,19 +125,11 @@
             "disponibilidad":[
                {
                   "eps":"SURA PRIMERA OPCION",
-                  "codigo":"N877346"
+                  "codigo":"N877346-24502-26293"
                },
                {
                   "eps":"COOSALUD",
                   "codigo":"N877346"
-               },
-               {
-                  "eps":"SURA PRIMERA OPCION",
-                  "codigo":"24502"
-               },
-               {
-                  "eps":"SURA PRIMERA OPCION",
-                  "codigo":"26293"
                }
             ]
          }
@@ -156,12 +164,16 @@
                   "codigo":"27234"
                },
                {
-                  "eps":"NUEVA EPS",
-                  "codigo":"MD.006709"
+                  "eps":"SURA PRIMERA OPCION",
+                  "codigo":"21975-26390"
                },
                {
-                  "eps":"MUTUAL SER",
-                  "codigo":"23056"
+                  "eps":"NUEVA EPS",
+                  "codigo":"MD.0D6709-MD.0D7344-MD.0D7353"
+               },
+               {
+                  "eps":"EMSSANAR",
+                  "codigo":"143506"
                }
             ],
             "id":3,
@@ -170,7 +182,11 @@
             "disponibilidad":[
                {
                   "eps":"NUEVA EPS",
-                  "codigo":"27234"
+                  "codigo":"MD.0D6672-MD.0D7654"
+               },
+               {
+                  "eps":"EMSSANAR",
+                  "codigo":"109663"
                },
                {
                   "eps":"MUTUAL SER",
@@ -199,6 +215,14 @@
                {
                   "eps":"NUEVA EPS",
                   "codigo":"MD.012138"
+               },
+               {
+                  "eps":"SAVIA SALUD EPS",
+                  "codigo":"137518"
+               },
+               {
+                  "eps":"EMSSANAR",
+                  "codigo":"143587"
                }
             ],
             "id":1,
@@ -208,29 +232,6 @@
                {
                   "eps":"NUEVA EPS",
                   "codigo":"MD.012138"
-               }
-            ]
-         }
-      ]
-   },
-   {
-      "id":7,
-      "nombre":"ENSOY NIÑOS SMART",
-      "descripción":"ENSOY® NIÑOS SMART, es nutrición avanzada que apoya el crecimiento y desarrollo de los niños  ya que contiene una proteína de alta calidad, Omega 3(500mg/ porción) y DHA (50 mg/ porción), ácidos grasos esenciales importantes en esta etapa de los niños de formación. Adicionalmente Ensoy Niños Smart,  contiene 27 vitaminas y minerales y fibra prebiótica. Es rico en Zinc y vitamina C.",
-      "composición":"Aceite de canola, proteína aislada de soya (proteína aislada de soya, aceite de palma, jarabe de sólidos de maíz, azúcar, fosfato de calcio, citrato de potasio, lecitina (emulsificante), cloruro de sodio, monoglicéridos, sabores artificiales, fosfato de magnesio, ácido ascórbico, óxido de zinc, hierro reducido, pantotenato de calcio, riboflavina, Vitamina A, niacinamida, clorhidrato de piridoxina, mononitrato de tiamina, yoduro de potasio, ácido fólico, Vitamina D3, Vitamina B12, betacaroteno), maltodextrina, azúcar, polidextrosa, sabores artificiales (vainilla), premezcla vitaminas y minerales (Bitartrato de colina, fosfato de magnesio, ácido ascórbico, inositol, niacinamida, Vitamina E acetato, pirofosfato férrico, sulfato de zinc, D-pantotenato de calcio, mononitrato de tiamina, clorhidrato de piridoxina, sulfato de manganeso, riboflavina, sulfato cúprico, Vitamina A palmitato, ácido fólico, D-Biotina, yoduro de potasio, cloruro de cromo, molibdato de sodio, Vitamina K, selenito de sodio, Colecalciferol, cianocobalamina), leche en polvo deslactosada, Omega 3 DHA, cloruro de sodio, citrato de potasio, goma xanthan (espesante), sucralosa (edulcorante artificial).",
-      "preparacion":"Para preparar un vaso de ENSOY® NIÑOS SMART, agregue a un vaso 190 ml de agua fría y 3 cucharas medidoras equivalentes a 45 g de ENSOY® NIÑOS SMART. Incluye cuchara medidora.",
-      "presentación":": Lata por 400 g (sabor vainilla), rinde 9 porciones. (Reg. San. RSAV10I44614).",
-      "invima":"RSAV10I44614",
-      "imagen":"img/ninos_smart.png",
-      "nutricional":"img/nutricional/Ensoy_Ninos_Smart.jpg",
-      "presentaciones":[
-         {
-            "id":1,
-            "detalle":"Lata 400",
-            "porciones":9,
-            "disponibilidad":[
-               {
-
                }
             ]
          }
@@ -282,7 +283,12 @@
                },
                {
                   "eps":"NUEVA EPS",
-                  "codigo":"MD. 012086"
+                  "codigo":"MD.012086"
+               },
+               ,
+               {
+                  "eps":"EMSSANAR",
+                  "codigo":"144274-144288"
                }
             ]
          }
@@ -305,8 +311,8 @@
             "porciones":7,
             "disponibilidad":[
                {
-                  "eps":"",
-                  "codigo":""
+                  "eps":"SURA",
+                  "codigo":"27757"
                }
             ]
          }
@@ -382,7 +388,7 @@
                },
                {
                   "eps":"NUEVA EPS",
-                  "codigo":"MD. 012116"
+                  "codigo":"MD.012116"
                }
             ]
          }
@@ -482,7 +488,7 @@
                },
                {
                   "eps":"SURA PRIMERA OPCION",
-                  "codigo":"22116"
+                  "codigo":"22116-27463"
                },
                {
                   "eps":"NUEVA EPS",
@@ -504,19 +510,23 @@
                {
                   "eps":"SURA",
                   "codigo":"22015"
+               },
+               {
+                  "eps":"EPSIFARMA",
+                  "codigo":"22015"
                }
             ],
             "id":3,
-            "detalle":"Lata 400",
-            "porciones":7,
+            "detalle":"Lata 1000",
+            "porciones":27,
             "disponibilidad":[
                {
-                  "eps":"SURA",
-                  "codigo":"21425"
+                  "eps":"NUEVA EPS",
+                  "codigo":"MD.007401-MD.007402"
                },
                {
                   "eps":"SURA",
-                  "codigo":"MD.007401"
+                  "codigo":"21425"
                }
             ]
          }
