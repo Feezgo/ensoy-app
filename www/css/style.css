@@ -8,35 +8,14 @@
      background-color: #FFF;
      height: 350px;
 }
-.invima{
-    font-size: 11px;
+
+.datos_invima{
+    position: relative;
+    top: 72px;
+    background: #9e9b54;
+    color: white;
     text-align: center;
-    color: grey;
-    position: absolute;
-    top: 77%;
-    font-weight: bold;
-        padding-left: 1%;
-
-}
-
-.div_textarea {
-  position: absolute;
-  left: 5px; 
-  top: 5px;
-  right: 5px; 
-  bottom: 5px;
-  border: 1px solid #CCC; /* style like textarea */
-}
-
-.preparacion {
-      font-size: 11px;
-    color: grey;
-  text-align: justify;
-  font-weight: bold;
-  width: 100%;
-  height: 100%;
-  margin: 0; /* don't want to add to container size */
-  border: 0; /* don't want to add to container size */
+    padding: 2%;
 }
 .nutricion_h4{
     text-align: center;

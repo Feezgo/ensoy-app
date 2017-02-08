@@ -1,4 +1,5 @@
 angular.module('starter.controllers', [])
+
 .controller('HomeCtrl', function($scope)
 {
 	
@@ -16,9 +17,11 @@ angular.module('starter.controllers', [])
 		$scope.productos = data;
 	});
 
-	$scope.onAfterChange = function(selection, index)
+	$scope.onAfterChange = function(e)
 	{
-		console.log('slide', selection, index);
+		console.log(e);
+		 //$scope.name = e.invima;
+		 //$scope.name = e.preparacion;
 	}
 })
 .controller('DetallesCtrl', function($scope, $ensoy, $plan, $stateParams, $filter, $location, $ionicPopup, $ionicModal)
