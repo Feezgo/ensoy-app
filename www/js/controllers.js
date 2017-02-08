@@ -15,6 +15,11 @@ angular.module('starter.controllers', [])
 	{
 		$scope.productos = data;
 	});
+
+	$scope.change = function(e)
+	{
+		console.log(e);
+	}
 })
 .controller('DetallesCtrl', function($scope, $ensoy, $plan, $stateParams, $filter, $location, $ionicPopup, $ionicModal)
 {

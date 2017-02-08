@@ -1,9 +1,10 @@
 [
-   {
+      {
       "id":1,
       "nombre":"ENSOY ADULTOS",
       "descripción":"ENSOY es un alimento en  polvo diseñado para complementar la alimentación de aquellas personas que requieren soporte nutricional con macronutrientes y micronutrientes. Contiene proteína de alta calidad (Proteína Aislada de Soya), naturalmente libre de   colesterol,  lactosa y gluten.",
       "composición":"Maltodext",
+      "invima":"RSAV16I71314",
       "preparacion":"Una porción de ENSOY e prepara adicionando a 1 vaso de agua de 200 ml, 4 cucharas medidoras de ENSOY",
       "imagen":"img/ensoy_adultos.png",
       "nutricional":"img/nutricional/Ensoy.jpg",
@@ -20,17 +21,6 @@
                {
                   "eps":"NUEVA EPS",
                   "codigo":"MD.000877-004731-006405-006406-007403"
-               }
-            ]
-         },
-         {
-            "id":2,
-            "detalle":"lata 900",
-            "porciones":15,
-            "disponibilidad":[
-               {
-                  "eps":"SURA PRIMERA OPCION",
-                  "codigo":"26717"
                }
             ]
          },
@@ -64,6 +54,7 @@
       "nombre":"Ensoy Diabéticos",
       "descripción":" ENSOY DIABÉTICOS es el complemento nutricional de bajo índice glicémico (IG 47) especializado para Diabéticos, libre de azúcar añadido, endulzado con maltitol. ENSOYDIABÉTICOS es ricoenproteínas usfuentes son: proteínaaisladadesoya,proteínadesuerolácteo,además contiene aceite de canola y girasol,omega3,relacióno mega6/omega3(3: 1),        fibraFOS(fructo-oligosacáridos),12 vitaminas y 13minerales.",
       "composición":"Maltitol",
+      "invima":"RSAV10121805", 
       "preparacion":"Una porción de ENSOY DIABÉTICOS se prepara adicionando a un vaso de agua de 210 ml, 4 cucharas medidoras de ENSOY DIABÉTICOS.",
       "imagen":"img/diabeticos_vainilla.png",
       "nutricional":"img/nutricional/Ensoy_Diabeticos.jpg",
@@ -104,21 +95,6 @@
             ]
          },
          {
-            "id":2,
-            "detalle":"lata 900",
-            "porciones":15,
-            "disponibilidad":[
-               {
-                  "eps":"MUTUAL SER",
-                  "codigo":"N877611"
-               },
-               {
-                  "eps":"COOSALUD",
-                  "codigo":"I00000001389-V06DA012252"
-               }
-            ]
-         },
-         {
             "id":3,
             "detalle":"lata 1000",
             "porciones":17,
@@ -140,21 +116,13 @@
       "nombre":"ENSOY NIÑOS",
       "descripción":"ENSOY NIÑOS es un alimento en polvo diseñado para complementar la alimentación de los niños 2-12 años que no comen bien o que requieren enriquecer la dieta con macronutrientes y micronutrientes. Contiene proteína de alta calidad(Proteína Aislada de Soya),13 vitaminas y 14 minerales, Naturalmente libre de colesterol,lactosaygluten.",
       "composición":"Proteína",
+      "invima":"RSAV10118804", 
       "preparacion":"Unaporciónde ENSOY NIÑOS se prepara adicionando a 1 vaso de agua de 190 ml, 3 cucharas medidoras de ENSOY NIÑOS. ",
       "presentación":"Lata por 400 g (sabores)",
       "imagen":"img/ensoy_niños_fresa.png",
       "nutricional":"img/nutricional/Ensoy_Ninos.jpg",
       "presentaciones":[
          {
-            "id":1,
-            "detalle":"Lata 200",
-            "porciones":4,
-            "disponibilidad":[
-               {
-                  "eps":"SURA",
-                  "codigo":"27234"
-               }
-            ],
             "id":2,
             "detalle":"Lata 400",
             "porciones":9,
@@ -175,7 +143,7 @@
                   "eps":"EMSSANAR",
                   "codigo":"143506"
                }
-            ],
+            ]},{
             "id":3,
             "detalle":"Lata 900",
             "porciones":20,
@@ -192,8 +160,8 @@
                   "eps":"MUTUAL SER",
                   "codigo":"24836"
                }
-            ]
-         }
+            ]}
+         
       ]
    },
    {
@@ -224,7 +192,7 @@
                   "eps":"EMSSANAR",
                   "codigo":"143587"
                }
-            ],
+            ]},{
             "id":1,
             "detalle":"Lata 900",
             "porciones":20,
@@ -355,7 +323,7 @@
          {
             "id":1,
             "detalle":"Lata 400",
-            "porciones":7,
+            "porciones":9,
             "disponibilidad":[
                {
                   "eps":"SURA",
@@ -379,7 +347,7 @@
          {
             "id":1,
             "detalle":"Lata 400",
-            "porciones":7,
+            "porciones":10,
             "disponibilidad":[
                {
                   "eps":"SURA",
@@ -402,12 +370,12 @@
       "presentación":"Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV10I44014).",
       "invima":"RSAV10I44014",
       "imagen":"img/ensoy_lactancia.png",
-      "nutricional":"img/nutricional/14_nutricional.png",
+      "nutricional":"img/nutricional/Ensoy_lactancia.jpg",
       "presentaciones":[
          {
             "id":1,
             "detalle":"Lata 400",
-            "porciones":7,
+            "porciones":10,
             "disponibilidad":[
                {
                   "eps":"",
@@ -426,12 +394,12 @@
       "presentación":"Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV03I1214).",
       "invima":"RSAV03I1214",
       "imagen":"img/ensoy_gold.png",
-      "nutricional":"img/nutricional/15_nutricional.png",
+      "nutricional":"img/nutricional/ensoy_gold.jpg",
       "presentaciones":[
          {
             "id":1,
             "detalle":"Lata 400",
-            "porciones":7,
+            "porciones":10,
             "disponibilidad":[
                {
                   "eps":"",
@@ -455,7 +423,7 @@
          {
             "id":1,
             "detalle":"Lata 400",
-            "porciones":7,
+            "porciones":5,
             "disponibilidad":[
                {
                   "eps":"",
@@ -466,43 +434,18 @@
       ]
    },
    {
-      "id":17,
-      "nombre":"ENSOY PROTEINA",
-      "descripción":"ENSOY® PROTEÍNA es un alimento que contiene proteína de alto valor biológico derivado de proteína Whey (suero lácteo) y aislado de proteína de soya. ENSOY® PROTEÍNA aporta 5 gramos de proteína por porción distribuido así: Aislado de soya 57% y proteína de suero lácteo 43%. ENSOY® PROTEÍNA aporta por porción tan sólo 35 mg de sodio, 25 mg de potasio y 40 mg de fósforo, equivalente al 4% de los requerimientos diarios.",
+      "id":18,
+      "nombre":"ENSOY PROTECT",
+      "descripción":"ENSOY® PROTECT Alimento nutritivo en polvo a base de maltodextrina, con proteína aislada de soya, fibra dietaria y probióticos, adicionado con vitaminas y minerales.",
       "composición":"Proteína aislada de soya (proteína aislada de soya, lecitina (emulsionante), proteína de suero lácteo, dióxido de silicio (anticompactante), almidón pregelatinizado, bromelina",
-      "preparacion":"ENSOY® PROTEÍNA por su fácil dilución y sabor neutro, se mezcla fácilmente con cualquier tipo de alimento, especialmente líquidos como: Cremas, gelatinas, jugos, leche, yogurt, salsas, complementos o suplementos nutricionales.",
-      "presentación":"Lata por 275 g, incluye cuchara medidora que pesa 6 g (Reg. San. RSAV 10I20405) y rinde 46 porciones.",
-      "invima":"RSAV 10I20405",
-      "imagen":"img/ensoy_proteina.png",
-      "nutricional":"img/nutricional/Ensoy_Proteina.jpg",
+      "preparacion":"ENSOY® PROTECT Para preparar un vaso de Ensoy Protect agregue a un vaso de 200 ml de agua fría 3 cucharas medidoras equivalentes a 57g de producto.",
+      "presentación":"Lata x 400g",
+      "invima":"RSA-000662-2016 ",
+      "imagen":"img/ensoy_protect.png",
+      "nutricional":"img/nutricional/ensoy_protect.png",
       "presentaciones":[
          {
             "id":1,
-            "detalle":"Lata 275",
-            "porciones":46,
-            "disponibilidad":[
-               {
-                  "eps":"SURA",
-                  "codigo":"21826"
-               },
-               {
-                  "eps":"SURA PRIMERA OPCION",
-                  "codigo":"22116-27463"
-               },
-               {
-                  "eps":"NUEVA EPS",
-                  "codigo":"MD.008730"
-               },
-               {
-                  "eps":"MUTUAL SER",
-                  "codigo":"N864054"
-               },
-               {
-                  "eps":"COOSALUD",
-                  "codigo":"V06DA019252"
-               }
-            ],
-            "id":2,
             "detalle":"Lata 400",
             "porciones":7,
             "disponibilidad":[
@@ -514,21 +457,56 @@
                   "eps":"EPSIFARMA",
                   "codigo":"22015"
                }
-            ],
-            "id":3,
-            "detalle":"Lata 1000",
-            "porciones":27,
+            ]
+         }
+            
+         
+      ]
+   },
+   {
+      "id":19,
+      "nombre":"ENSOY® CREMA VERDURAS",
+      "descripción":"ENSOY® CREMA Alimento en polvo para preparar crema instantánea con proteína vegetal, enriquecido con calcio, sabor verduras.",
+      "composición":"Maltodextrina, proteína aislada de soya (proteína aislada de soya, fosfato de calcio, lecitina de soya(emulsionante)), aceite de canola, fibra de soya, polidextrosa, sabores artificiales, proteína de suero, cloruro de sodio, grasa vegetal, extracto de levadura (acentuador de sabor), vegetales deshidratados, glutamato monosódico (acentuador de sabor), fosfato de calcio tribásico, almidón de papa, monoglicéridos (emulsionante), carboximetilcelulosa (espesante), cloruro de potasio (acentuador de sabor), proteína de arveja, dióxido de silicio coloidal (anticompactante), goma xhantan (estabilizante), cúrcuma (colorante natural), clorofila (colorante natural), óxido de zinc.",
+      "preparacion":"ENSOY® CREMA Disolver el contenido de un sobre (50 g) en una taza (200 ml) de agua caliente, revolver bien y consumir inmediatamente.",
+      "presentación":"Sobre x 50 g - Caja x 4 sobres x 50 g",
+      "invima":"RSA-001469-2016",
+      "imagen":"img/ensoy_crema_verduras.png",
+      "nutricional":"img/nutricional/ensoy_crema_verdura.jpg",
+      "presentaciones":[
+         {
+            "id":1,
+            "detalle":"Sobre x 50 g",
+            "porciones":7,
             "disponibilidad":[
                {
-                  "eps":"NUEVA EPS",
-                  "codigo":"MD.007401-MD.007402"
+                  "eps":"SURA",
+                  "codigo":"22015"
                },
                {
+                  "eps":"EPSIFARMA",
+                  "codigo":"22015"
+               }
+            ]
+         },
+         {
+            "id":2,
+            "detalle":"Caja x 4 sobres x 50 g",
+            "porciones":7,
+            "disponibilidad":[
+               {
                   "eps":"SURA",
-                  "codigo":"21425"
+                  "codigo":"22015"
+               },
+               {
+                  "eps":"EPSIFARMA",
+                  "codigo":"22015"
                }
             ]
          }
+            
+         
       ]
    }
+
 ]
