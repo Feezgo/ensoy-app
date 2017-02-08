@@ -8,6 +8,6 @@
     "angular": ">= 1.0.8"
   },
   "dependencies": {
-    "angular-slick": "^0.2.1"
+    "angular-slick": "https://github.com/danielfeo/angular-slick.git#0.1.18"
   }
 }

@@ -16,9 +16,9 @@ angular.module('starter.controllers', [])
 		$scope.productos = data;
 	});
 
-	$scope.change = function(e)
+	$scope.onAfterChange = function(selection, index)
 	{
-		console.log(e);
+		console.log('slide', selection, index);
 	}
 })
 .controller('DetallesCtrl', function($scope, $ensoy, $plan, $stateParams, $filter, $location, $ionicPopup, $ionicModal)

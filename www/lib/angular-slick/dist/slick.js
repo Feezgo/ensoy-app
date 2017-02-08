@@ -64,17 +64,11 @@ angular.module('slick', []).directive('slick', [
         };
         initializeSlick = function () {
           return $timeout(function () {
-            var currentIndex, customPaging, slider;
+            var currentIndex, slider;
             slider = $(element);
             if (scope.currentIndex != null) {
               currentIndex = scope.currentIndex;
             }
-            customPaging = function (slick, index) {
-              return scope.customPaging({
-                slick: slick,
-                index: index
-              });
-            };
             slider.slick({
               accessibility: scope.accessibility !== 'false',
               adaptiveHeight: scope.adaptiveHeight === 'true',
@@ -87,7 +81,7 @@ angular.module('slick', []).directive('slick', [
               centerMode: scope.centerMode === 'true',
               centerPadding: scope.centerPadding || '50px',
               cssEase: scope.cssEase || 'ease',
-              customPaging: attrs.customPaging ? customPaging : void 0,
+              customPaging: attrs.customPaging ? scope.customPaging : void 0,
               dots: scope.dots === 'true',
               draggable: scope.draggable !== 'false',
               easing: scope.easing || 'linear',
@@ -96,7 +90,26 @@ angular.module('slick', []).directive('slick', [
               infinite: scope.infinite !== 'false',
               initialSlide: scope.initialSlide || 0,
               lazyLoad: scope.lazyLoad || 'ondemand',
-              beforeChange: attrs.onBeforeChange ? scope.onBeforeChange : void 0,
+              onBeforeChange: attrs.onBeforeChange ? scope.onBeforeChange : void 0,
+              onAfterChange: function (sl, index) {
+                if (attrs.onAfterChange) {
+                  scope.onAfterChange();
+                }
+                if (currentIndex != null) {
+                  return scope.$apply(function () {
+                    currentIndex = index;
+                    return scope.currentIndex = index;
+                  });
+                }
+              },
+              onInit: function (sl) {
+                if (attrs.onInit) {
+                  scope.onInit();
+                }
+                if (currentIndex != null) {
+                  return sl.slideHandler(currentIndex);
+                }
+              },
               onReInit: attrs.onReInit ? scope.onReInit : void 0,
               onSetPosition: attrs.onSetPosition ? scope.onSetPosition : void 0,
               pauseOnHover: scope.pauseOnHover !== 'false',
@@ -116,28 +129,9 @@ angular.module('slick', []).directive('slick', [
               prevArrow: scope.prevArrow ? $(scope.prevArrow) : void 0,
               nextArrow: scope.nextArrow ? $(scope.nextArrow) : void 0
             });
-            slider.on('init', function (sl) {
-              if (attrs.onInit) {
-                scope.onInit();
-              }
-              if (currentIndex != null) {
-                return sl.slideHandler(currentIndex);
-              }
-            });
-            slider.on('afterChange', function (event, slick, currentSlide, nextSlide) {
-              if (scope.onAfterChange) {
-                scope.onAfterChange();
-              }
-              if (currentIndex != null) {
-                return scope.$apply(function () {
-                  currentIndex = currentSlide;
-                  return scope.currentIndex = currentSlide;
-                });
-              }
-            });
             return scope.$watch('currentIndex', function (newVal, oldVal) {
               if (currentIndex != null && newVal != null && newVal !== currentIndex) {
-                return slider.slick('slickGoTo', newVal);
+                return slider.slickGoTo(newVal);
               }
             });
           });
