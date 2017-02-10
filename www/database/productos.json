@@ -5,9 +5,9 @@
       "descripción":"ENSOY es un alimento en  polvo diseñado para complementar la alimentación de aquellas personas que requieren soporte nutricional con macronutrientes y micronutrientes. Contiene proteína de alta calidad (Proteína Aislada de Soya), naturalmente libre de   colesterol,  lactosa y gluten.",
       "composición":"Maltodext",
       "invima":"RSAV16I71314",
-      "preparacion":"Una porción de ENSOY e prepara adicionando a 1 vaso de agua de 200 ml, 4 cucharas medidoras de ENSOY",
+      "preparacion":"Una porción de ENSOY se prepara adicionando a 1 vaso de agua de 200 ml, 4 cucharas medidoras de ENSOY",
       "imagen":"img/ensoy_adultos.png",
-      "nutricional":"img/nutricional/Ensoy.jpg",
+      "nutricional":"img/nutricional/ensoy_adultos.jpg",
       "presentaciones":[
          {
             "id":1,
@@ -55,7 +55,8 @@
       "descripción":" ENSOY DIABÉTICOS es el complemento nutricional de bajo índice glicémico (IG 47) especializado para Diabéticos, libre de azúcar añadido, endulzado con maltitol. ENSOYDIABÉTICOS es ricoenproteínas usfuentes son: proteínaaisladadesoya,proteínadesuerolácteo,además contiene aceite de canola y girasol,omega3,relacióno mega6/omega3(3: 1),        fibraFOS(fructo-oligosacáridos),12 vitaminas y 13minerales.",
       "composición":"Maltitol",
       "invima":"RSAV10121805", 
-      "preparacion":"Una porción de ENSOY DIABÉTICOS se prepara adicionando a un vaso de agua de 210 ml, 4 cucharas medidoras de ENSOY DIABÉTICOS.",
+      "ig":"IG 47",
+      "preparacion":"Una porción de ENSOY DIABÉTICOS se prepara adicionando a un vaso de agua de 210 ml, 4 cucharas medidoras de ENSOY DIABÉTICOS equivalentes a 60 gr de producto.",
       "imagen":"img/diabeticos_vainilla.png",
       "nutricional":"img/nutricional/Ensoy_Diabeticos.jpg",
       "presentaciones":[
@@ -117,7 +118,7 @@
       "descripción":"ENSOY NIÑOS es un alimento en polvo diseñado para complementar la alimentación de los niños 2-12 años que no comen bien o que requieren enriquecer la dieta con macronutrientes y micronutrientes. Contiene proteína de alta calidad(Proteína Aislada de Soya),13 vitaminas y 14 minerales, Naturalmente libre de colesterol,lactosaygluten.",
       "composición":"Proteína",
       "invima":"RSAV10118804", 
-      "preparacion":"Unaporciónde ENSOY NIÑOS se prepara adicionando a 1 vaso de agua de 190 ml, 3 cucharas medidoras de ENSOY NIÑOS. ",
+      "preparacion":"Una porción de ENSOY NIÑOS se prepara adicionando a 1 vaso de agua de 190 ml, 3 cucharas medidoras de ENSOY NIÑOS equivalentes a 45 gr de producto.",
       "presentación":"Lata por 400 g (sabores)",
       "imagen":"img/ensoy_niños_fresa.png",
       "nutricional":"img/nutricional/Ensoy_Ninos.jpg",
@@ -169,9 +170,10 @@
       "nombre":"ENSOY NIÑOS DEFENSE",
       "descripción":"ENSOY® NIÑOS DEFENSE es un complemento nutricional simbiótico para niños (probióticos B. Coagulans+ prebiótico),  con omega 3(480 mg/ porción), DHA(50mg/ porción) y rico en micronutrientes como el  Zinc, Vitamina C. ENSOY NIÑOS DEFENSE apoya el crecimiento y desarrollo dentro de una dieta balanceada ya que contiene los cinco grupos de alimentos en una forma balanceada.",
       "composición":"Aceite de canola, proteína aislada de soya (proteína aislada de soya, aceite de palma, jarabe de sólidos de maíz, azúcar, fosfato de calcio, citrato de potasio, lecitina (emulsificante), cloruro de sodio, monoglicéridos, sabores artificiales, fosfato de magnesio, ácido ascórbico, óxido de zinc, hierro reducido, pantotenato de calcio, riboflavina, Vitamina A, niacinamida, clorhidrato de piridoxina, mononitrato de tiamina, yoduro de potasio, ácido fólico, Vitamina D3, Vitamina B12, betacaroteno),maltodextrina, azúcar, polidextrosa, sabores artificiales, fosfato de calcio tribásico, premezcla vitaminas y minerales (Bitartrato de colina, fosfato de magnesio, ácido ascórbico, inositol, niacinamida, Vitamina E acetato, pirofosfato férrico, sulfato de zinc, D-pantotenato de calcio, mononitrato de tiamina, clorhidrato de piridoxina, sulfato de manganeso, riboflavina, sulfato cúprico, Vitamina A palmitato, ácido fólico, D-Biotina, yoduro de potasio, cloruro de cromo, molibdato de sodio, Vitamina K, selenito de sodio, Colecalciferol, cianocobalamina), Omega 3 DHA, cloruro de sodio, citrato de potasio, Carboximetil celulosa de sodio (espesante), Cepa probiótica B. coagulans, goma xanthan (espesante), sucralosa (edulcorante artificial)",
-      "preparacion":"Una porción de ENSOY® NIÑOS DEFENSE se prepara adicionando a 1 vaso de agua de 190 ml, 3 cucharas medidoras de ENSOY® NIÑOS DEFENSE. ",
+      "preparacion":"Niños mayores de 2 años: Una porción de ENSOY® NIÑOS DEFENSE se prepara adicionando a 1 vaso de agua de 190 ml, 3 cucharas medidoras de ENSOY® NIÑOS DEFENSE equivalentes a 45 gr de producto. ",
       "presentación":": Lata por 400 g (sabor vainilla), rinde 9 porciones. Lata por 900 g (sabor vainilla), rinde 20 porciones (Reg. San. RSAV16I71314).",
       "invima":"RSAV16I71314",
+      "ig":" Con probióticos y prebióticos",
       "imagen":"img/defense_ninos.png",
       "nutricional":"img/nutricional/Ensoy_Ninos_Defense.jpg",
       "presentaciones":[
@@ -210,7 +212,7 @@
       "nombre":"ENSOY MET",
       "descripción":" ENSOY MET  es nutrición avanzada con ésteres de esterol, rico en proteína, para incluir en dietas con control de calorías, endulzado con carbohidratos de Bajo Índice Glicémico, contiene un perfil especializado de ácidos grasos esenciales ya que contiene omega 3 (800 mg/ porción), EPA (280mg/ porción) y DHA (100 mg/ porción), relación omega 6 y omega 3 1:1. ENSOY MET  es rico en fibra dietaria  y aporta a la dieta nutrientes antioxidantes como la vitamina C, E y selenio. ENSOY MET  es rico en cromo, además es rico es calcio y cubre el 100% de los requerimientos de vitamina D y Ácido Fólico. ENSOY MET  tiene una relación sodio -potasio de 1:2. Alimentos que contengan al menos 0,65 g por porción de esteres de esterol vegetal consumidos (2) veces al día con comidas para un consumo total diario de al menos 1,3 como parte de una dieta baja en grasa saturada y colesterol puede reducir el riesgo de enfermedad cardiovascular. Una porción de ENSOY MET  aporta 0,65 g de ésteres de esterol proveniente de aceite vegetal",
       "composición":"Proteína aislada de soya (proteína aislada de soya, lecitina de soya (emulsionante)), Maltitol, aceite de Canola, omega 3 DHA-EPA, fibra de soya, sabores artificiales, polidextrosa, premezcla vitaminas y minerales (Fosfato de magnesio dibásico, Ascorbato de sodio, Bitartrato de colina, DL alfa tocoferil acetato, Niacinamida, Óxido de zinc, D- pantotenato de calcio, Pirofosfato férrico, Vitamina A palmitato, Clorhidrato de piridoxina, Óxido de cobre, Sulfato de manganeso, Riboflavina, Mononitrato de tiamina, Ácido fólico, Cloruro de cromo, D-Biotina, Yoduro de potasio, Selenito de sodio, Molibdato de sodio, Colecalciferol, Fitonadiona, Cianocobalamina), ésteres de esterol, citrato de potasio, colorante (Dióxido de titanio, Grasas vegetales), goma xanthan (espesante), Cloruro de sodio, sucralosa (edulcorante artificial).",
-      "preparacion":"Una porción de ENSOY MET se prepara adicionando a 1 vaso de agua de 210ml,3 cucharas medidoras de ENSOYMET.",
+      "preparacion":"Una porción de ENSOY MET se prepara adicionando a 1 vaso de agua de 210 ml, 3 cucharas medidoras de ENSOYMET equivalentes a 42 gramos de producto.",
       "presentación":"Lata por 400 g (sabor vainilla), rinde aproximadamente 10 porciones (Reg. San. RSAV16I73615).",
       "invima":"RSAV16I73615",
       "imagen":"img/ensoy_met.png",
@@ -234,7 +236,7 @@
       "nombre":"ENSOY DIGEST",
       "descripción":" ENSOY DIGEST  es nutrición avanzada naturalmente libre de gluten y fructosa,  con un sistema simbiótico (probiótico B. Coagulans +prebiótico), omega 3(450mg/porción), 13 vitaminas, 14 minerales y colina.  “Una adecuada alimentación y un consumo regular de alimentos con microorganismos probióticos, puede ayudar a normalizar las funciones digestivas y regenerar la flora intestinal.",
       "composición":"Maltodextrina, proteína aislada de soya (proteína aislada de soya, aceite de palma, jarabe de sólidos de maíz, azúcar, fosfato de calcio, citrato de potasio, lecitina (emulsificante), cloruro de sodio, monoglicéridos, sabores artificiales, fosfato de magnesio, ácido ascórbico, óxido de zinc, hierro reducido, pantotenato de calcio, riboflavina, Vitamina A, niacinamida, clorhidrato de piridoxina, mononitrato de tiamina, yoduro de potasio, ácido fólico, Vitamina D3, Vitamina B12, betacaroteno (colorante natural)), azúcar, aceite de canola, sabores artificiales (vainilla), polidextrosa, fibra de avena, grasa vegetal de maíz, premezcla vitaminas y minerales (Bitartrato de colina, fosfato de magnesio, ácido ascórbico, niacinamida, Vitamina E acetato, pirofosfato férrico, sulfato de zinc, D-pantotenato de calcio, mononitrato de tiamina, clorhidrato de piridoxina, sulfato de manganeso, riboflavina, sulfato cúprico, Vitamina A palmitato, ácido fólico, D-Biotina, yoduro de potasio, cloruro de cromo, molibdato de sodio, Vitamina K, selenito de sodio, Colecalciferol, cianocobalamina), citrato de potasio, cloruro de sodio, goma xanthan (espesante), cepa probiótica Bacillus coagulans, carboximetil celulosa de sodio (espesante), sucralosa (edulcorante artificial).",
-      "preparacion":"Una porción de ENSOY DIGEST  se prepara adicionando a 1 vaso de agua de 200 ml, 3 cucharas medidoras de ENSOY DIGEST.",
+      "preparacion":"Una porción de ENSOY DIGEST  se prepara adicionando a 1 vaso de agua de 200 ml, 4 cucharas medidoras de ENSOY DIGEST  equivalentes a 57 gramos de producto.",
       "presentación":"Lata por 400 g (sabor vainilla), rinde 7 porciones. (Reg. San. RSAV01I53115).",
       "invima":"RSAV01I53115",
       "imagen":"img/ensoy_digest.png",
@@ -266,7 +268,7 @@
       "nombre":"ENSOY DYAL",
       "descripción":"ENSOY DYAL  es el complemento nutricional  rico en proteína de alta calidad para incluir en la alimentación de aquellas personas con altos requerimientos o con pérdidas de nutrientes, con control de algunos minerales como el sodio, potasio y fósforo. ENSOY DYAL contiene carbohidratos de bajo índice glicémico, libre de azúcar añadido. ENSOY DYAL aporta 1,2 cal/ml  aporta un perfil de ácidos grasos esenciales como el omega 3 (1200 mg/porción), y contiene DHA (70mg/porción) y EPA (200mg/porción). ENSOY DYAL  es rico en fibra dietaria y  aporta a la dieta antioxidantes como la vitamina C, E, selenio. ENSOY DYAL  es rico en hierro y ácido fólico.",
       "composición":"Maltodextrina, maltitol, aceite de canola, proteína aislada de soya (proteína aislada de soya, lecitina (emulsificante)), proteína de suero lácteo, sabores artificiales, Omega 3 DHA, inulina, fibra de soya, premezcla vitaminas y minerales (fosfato de magnesio, niacinamida, ácido ascórbico, sulfato de zinc, Vitamina E acetato, pirofosfato férrico, D-pantotenato de calcio, clorhidrato de piridoxina, riboflavina,Clorhidrato de tiamina, sulfato cúprico, sulfato de manganeso, ácido fólico, D-Biotina, yoduro de potasio, cloruro de cromo, selenito de sodio, Vitamina K, molibdato de sodio, Betacaroteno, cianocobalamina, colecalciferol, carbonato de calcio, goma xanthan (espesante), cloruro de potasio.",
-      "preparacion":"Para preparar un vaso de ENSOY PREDYAL  de 250 ml, agregue a un vaso 100 ml de agua fría y 4 cucharas medidoras equivalentes a 72 g de producto. Revuelva hasta formar una pasta homogénea. Adicione el agua restante 90 ml y consuma inmediatamente. Incluye cuchara medidora.",
+      "preparacion":"Para preparar un vaso de ENSOY DYAL  de 250 ml, agregue a un vaso 100 ml de agua fría y 7 cucharas medidoras equivalentes a 71 g de producto. Revuelva hasta formar una pasta homogénea. Adicione el agua restante 90 ml y consuma inmediatamente.",
       "presentación":": Lata por 400 g (sabor vainilla), rinde aproximadamente 6 porciones (Reg. San. RSAV04I9015).",
       "invima":"RSAV04I9015",
       "imagen":"img/ensoy_dyal.png",
@@ -290,7 +292,7 @@
       "nombre":"ENSOY PREDYAL",
       "descripción":": ENSOY PREDYAL  es el complemento nutricional  especializado para incluir en la alimentación de aquellas personas que por sus condiciones nutricionales requieren dietas con control en la ingesta de proteína de alta calidad, endulzado con carbohidratos de bajo índice glicémico, libre de azúcar añadido. ENSOY PREDYAL, aporta 1,2 cal/ml.  Rico en ácidos grasos esenciales omega 3 (900 mg/porción), y contiene DHA (70 mg/porción), EPA (200 mg/porción). ENSOY PREDYAL es buena fuente de fibra dietaría y aporta a la dieta antioxidantes como la vitamina C, E, selenio.",
       "composición":"Maltodextrina, proteína aislada de soya (proteína aislada de soya, lecitina (emulsificante)), maltitol, aceite de canola, proteína de suero lácteo, sabores artificiales, Omega 3 DHA, inulina, fibra de soya, premezcla vitaminas y minerales (fosfato de magnesio, niacinamida, ácido ascórbico, sulfato de zinc, Vitamina E acetato, pirofosfato férrico, D-pantotenato de calcio, clorhidrato de piridoxina, riboflavina, mononitrato de tiamina, sulfato cúprico, sulfato de manganeso, ácido fólico, D-biotina, yoduro de potasio, cloruro de cromo, selenito de sodio, Vitamina K, molibdato de sodio, betacaroteno, cianocobalamina, colecalciferol), carbonato de calcio, colorante artificial (dióxido de titanio, grasas vegetales), goma xanthan (espesante), cloruro de potasio, sucralosa (edulcorante artificial).",
-      "preparacion":"Para preparar un vaso de ENSOY DYAL de 250 ml, agregue a un vaso 100 ml de agua fría y 7 cucharas medidoras equivalentes a 71 g de producto. Revuelva hasta formar una pasta homogénea. Adicione el agua restante 90 ml y consuma inmediatamente. Incluye cuchara medidora.",
+      "preparacion":"Para preparar un vaso de ENSOY PREDYAL de 250 ml, agregue a un vaso 100 ml de agua fría y 4 cucharas medidoras equivalentes a 72 g de producto. Revuelva hasta formar una pasta homogénea. Adicione el agua restante 90 ml y consuma inmediatamente.",
       "presentación":"Lata por 400 g (sabor vainilla), rinde aproximadamente 6 porciones. (Reg. San. RSAV04I8915).",
       "invima":"RSAV04I8915",
       "imagen":"img/ensoy_predyal.png",
@@ -314,10 +316,11 @@
       "nombre":"ENSOY MEMO",
       "descripción":" ENSOY MEMO  es nutrición avanzada para adultos mayores de 40 años ya que aporta un perfil de ácidos grasos esenciales con omega 3 (800 mg/porción), DHA (480mg/porción), EPA (170 mg/porción). ENSOY MEMO además es buena fuente de fibra dietaria y aporta a la dieta nutrientes antioxidantes como la vitamina C, E y selenio. Además es rico en calcio y zinc y cubre el 90% de los requerimientos de vitamina D.",
       "composición":"Maltodextrina, proteína aislada de soya (proteína aislada de soya, fosfato de calcio, lecitina de soya (emulsificante)), proteína de suero dulce, omega 3 DHA-EPA, aceite de girasol, inulina, aceite de canola, sabores artificiales (vainilla), fibra de soya, leche en polvo descremada, premezcla vitaminas y minerales (sulfato de magnesio, bitartrato de colina, ácido ascórbico, DL alfa tocoferil acetato, sulfato de zinc, niacina, pirofosfato férrico, D-pantotenato de calcio, vitamina A palmitato, clorhidrato de piridoxina, sulfato de manganeso, oxido de cobre, riboflavina, monohidrato de tiamina, ácido fólico, D-biotina, selenito de sodio, molibdato de sodio, vitamina K, colecalciferol, cianocobalamina), fosfato de calcio tribásico, colorante (dióxido de titanio, grasas vegetales), cloruro de sodio, dióxido de silicio coloidal (anticompactante), carboximetil celulosa de sodio (espesante), goma xanthan (estabilizante), sucralosa (edulcorante artificial).",
-      "preparacion":"Para preparar un vaso de ENSOY MEMO, agregue a un vaso 200 ml de agua fría y 3 cucharas medidoras equivalentes a 45 g de producto. Incluye cuchara medidora.",
+      "preparacion":"Para preparar un vaso de ENSOY MEMO, agregue a un vaso 200 ml de agua fría y 3 cucharas medidoras equivalentes a 45 g de producto.",
       "presentación":"Lata por 400 g (sabor vainilla), rinde 9 porciones. (Reg. San. RSAV16I73515).",
       "invima":"RSAV16I73515",
       "imagen":"img/ensoy_memo.png",
+      "ig":" FODMAP",
       "nutricional":"img/nutricional/Ensoy_Memo.jpg",
       "presentaciones":[
          {
@@ -338,7 +341,7 @@
       "nombre":"ENSOY PRENATAL",
       "descripción":" ENSOY PRENATAL es nutrición avanzada  para la mujer embarazada  ya que apoya la alimentación de la mamá y el bebé aportando a la dieta nutrientes indispensables en esta etapa de formación como  el Omega 3, DHA (80 mg/porción), colina y luteína (1000 mcg/ porción). ENSOY PRENATAL es buena fuente de proteína de alta calidad y es rico en hierro, ácido fólico, calcio y vitamina D. ENSOY PRENATAL contiene 13 vitaminas, 14 minerales y 3 gramos de fibra prebiótica/porción.",
       "composición":"Dextrosa, Proteína aislada de soya (Proteína aislada de soya, fosfato tricálcico, lecitina de soya (emulsificante)), Azúcar, Polidextrosa, Aceite de canola, Sabores artificiales (vainilla), Proteína de suero, Premezcla vitaminas y minerales (Cloruro de potasio, hidróxido de magnesio, ácido ascórbico, pirofosfato férrico, sulfato de zinc, niacinamida, D-pantotenato de calcio, Vitamina E acetato, clorhidrato de piridoxina, riboflavina, Vitamina A palmitato, clorhidrato de tiamina, gluconato de cobre, sulfato de manganeso, ácido fólico, yoduro de potasio, D-biotina, molibdato de sodio, selenito de sodio, Vitamina K, Cloruro de cromo, Colecalciferol, cianocobalamina), Aceite de oliva, Fibra de avena, Leche en polvo deslactosada, Fosfato tricálcico, Omega 3 DHA, Bitartrato de colina, Colorante (Dióxido de titanio), Cloruro de sodio, Almidón pregelatinizado, Goma xanthan (espesante), Luteína, Sucralosa (edulcorante artificial).",
-      "preparacion":"Para preparar un vaso de ENSOY MEMO, agregue a un vaso 200 ml de agua fría y 3 cucharas medidoras equivalentes a 45 g de producto. Incluye cuchara medidora.",
+      "preparacion":"Para preparar un vaso de ENSOY PRENATAL, agregue a un vaso 210 ml de agua fría y 4 cucharas medidoras equivalentes a 40 gr de producto.",
       "presentación":"Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV10I44414).",
       "invima":"RSAV10I44414",
       "imagen":"img/ensoy_prenatal.png",
@@ -366,7 +369,7 @@
       "nombre":"ENSOY LACTANCIA",
       "descripción":"ENSOY LACTANCIA es nutrición avanzada para la mujer lactante  ya que apoya la alimentación de la mamá brindando a la dieta de los nutrientes fundamentales para el desarrollo y crecimiento*. ENSOY LACTANCIA, contiene ácidos grasos esenciales como  el Omega 3 (300 mg/porción), contiene DHA (50 mg/porción) y luteína (3000 mcg/porción). ENSOY LACTANCIA es rico en hierro, ácido fólico, calcio y vitamina D. ENSOY LACTANCIA contiene 13 vitaminas, 14 minerales y 3 gramos de fibra prebiótica/porción. *Dentro de una dieta balanceada y ejercicio regular.",
       "composición":"Dextrosa, proteína aislada de soya (proteína aislada de soya, fosfato tricálcico, lecitina de soya (emulsificante)), azúcar, polidextrosa, aceite de canola, Sabores artificiales (vainilla), proteína de suero, aceite de oliva, premezcla vitaminas y minerales (Cloruro de potasio, hidróxido de magnesio, ácido ascórbico, sulfato de zinc, niacinamida, Vitamina E acetato, pirofosfato férrico, D-pantotenato de calcio, Vitamina A palmitato, clorhidrato de piridoxina, riboflavina, gluconato de cobre, clorhidrato de tiamina, sulfato de manganeso, ácido fólico, yoduro de potasio, D-biotina, molibdato de sodio, selenito de sodio, Vitamina K, cloruro de cromo, colecalciferol, cianocobalamina), fibra de avena, leche en polvo deslactosada, fosfato tricálcico, Omega 3 DHA, colorante (dióxido de titanio), bitartrato de colina, cloruro de sodio, goma xanthan (espesante), almidón pregelatinizado, luteína, sucralosa (edulcorante artificial).",
-      "preparacion":"Para preparar un vaso de ENSOY LACTANCIA agregue a un vaso de 210 ml de agua fría 4 cucharas medidoras equivalentes a 40 g de producto. Incluye cuchara medidora.",
+      "preparacion":"Para preparar un vaso de ENSOY LACTANCIA agregue a un vaso de 210 ml de agua fría 4 cucharas medidoras equivalentes a 40 g de producto.",
       "presentación":"Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV10I44014).",
       "invima":"RSAV10I44014",
       "imagen":"img/ensoy_lactancia.png",
@@ -390,7 +393,7 @@
       "nombre":"ENSOY GOLD",
       "descripción":"ENSOY GOLD es nutrición avanzada para la mujer madura, con  ácidos grasos esenciales como el omega 3 (320mg/ porción), contiene 0.65g esteres de esterol por porción. Adicionalmente ENSOY GOLD, aporta 25 mg de isoflavonas por porción, calcio y vitamina D. ENSOY GOLD contiene proteína de alta calidad,  27 vitaminas, minerales y fibra prebiótica.“Alimentos que contengan al menos 0,65 g por porción de esteres de esterol vegetal consumidos (2) veces al día con comidas para un consumo total diario de al menos 1,3 como parte de una dieta baja en grasa saturada y colesterol puede reducir el riesgo de enfermedad cardiovascular”. Una porción de ENSOY GOLD aporta 0,65 g de ésteres de esterol proveniente de aceite vegetal”.",
       "composición":": Proteína aislada de soya (proteína aislada de soya, fosfato de calcio, lecitina (emulsificante)) maltitol, maltodextrina, aceite de canola, azúcar, inulina, premezcla Vitaminas y Minerales (Fosfato de magnesio, bitartrato de colina, sulfato de zinc, ácido ascórbico, Vitamina E, niacinamida, pirofosfato férrico, D-pantotenato de calcio, Vitamina A palmitato, piridoxina clorhidrato, gluconato de cobre, sulfato de manganeso, riboflavina, mononitrato de tiamina, yoduro de potasio, ácido fólico, D-biotina, selenito de sodio, cloruro de cromo, Vitamina K, molibdato de sodio, Vitamina D3, Vitamina B12), proteína de suero lácteo, sabores artificiales (vainilla), fibra de avena, ésteres de esterol, , fosfato tricálcico, colorante (dióxido de titanio, grasas vegetales), Omega 3 DHA, carboximetil celulosa de sodio (espesante), Isoflavonas de soya, goma xanthan (espesante), cloruro de sodio, sucralosa (edulcorante artificial).",
-      "preparacion":"Para preparar un vaso de ENSOY GOLD, agregue a un vaso de 180 ml de agua fría 4 cucharas medidoras equivalentes a 38 g de producto. Incluye cuchara medidora.",
+      "preparacion":"Para preparar un vaso de ENSOY GOLD, agregue a un vaso de 180 ml de agua fría 4 cucharas medidoras equivalentes a 38 g de producto.",
       "presentación":"Lata por 400 g (sabor vainilla), rinde 10 porciones. (Reg. San. RSAV03I1214).",
       "invima":"RSAV03I1214",
       "imagen":"img/ensoy_gold.png",
@@ -414,7 +417,7 @@
       "nombre":"ENSOY RECOVER",
       "descripción":"ENSOY RECOVER es el complemento nutricional rico en proteína para incluir en la dieta de aquellas personas que han perdido peso y/o que necesitan recuperarlo. ENSOY RECOVER, aporta 1,2 cal/ml. Enriquecido con ácidos grasos esenciales omega 3 (1400 mg/porción), contiene DHA (370mg/porción), EPA (870mg/porción). Ensoy Recover es rico en fibra dietaria. Aporta a la dieta antioxidantes como la vitamina C, E, selenio y micronutrientes como el hierro y el ácido fólico..",
       "composición":"Maltodextrina, omega 3 DHA-EPA, proteína aislada de soya (proteína aislada de soya, lecitina de soya (emulsionante)), proteína de suero, sabores artificiales, azúcar, polidextrosa, fibra de soya, premezcla vitaminas y minerales (Fosfato de magnesio dibásico, Bitartrato de colina, Ácido ascórbico, Sulfato de zinc, Pirofosfato férrico, DL alfa tocoferil acetato, Niacinamida, D- pantotenato de calcio, Sulfato cúprico, Vitamina A palmitato, Clorhidrato de piridoxina, Sulfato de manganeso, Riboflavina, Mononitrato de tiamina, Ácido fólico, D-Biotina, Yoduro de potasio, Selenito de sodio, Cloruro de cromo, Fitonadiona, Molibdato de sodio, Colecalciferol, Cianocobalamina), fosfato de calcio, almidón pregelatinizado, cloruro de sodio, Goma Xanthan (espesante)",
-      "preparacion":"Para preparar un vaso de ENSOY RECOVER de 220ml, agregue a un vaso 100 ml de agua fría y 6 cucharas medidoras equivalentes a 73 g del producto, revolver hasta formar una pasta homogénea, y luego añada el resto de agua 100 ml. Incluye cuchara medidora.",
+      "preparacion":"Para preparar un vaso de ENSOY RECOVER de 220ml, agregue a un vaso 100 ml de agua fría y 6 cucharas medidoras equivalentes a 73 g del producto, revolver hasta formar una pasta homogénea, y luego añada el resto de agua 90 ml.",
       "presentación":": Lata por 400 g (sabor vainilla), rinde 5 porciones. (Reg. San. RSAV04I8715).",
       "invima":"RSAV04I8715",
       "imagen":"img/ensoy_recover.png",
@@ -438,7 +441,7 @@
       "nombre":"ENSOY PROTECT",
       "descripción":"ENSOY® PROTECT Alimento nutritivo en polvo a base de maltodextrina, con proteína aislada de soya, fibra dietaria y probióticos, adicionado con vitaminas y minerales.",
       "composición":"Proteína aislada de soya (proteína aislada de soya, lecitina (emulsionante), proteína de suero lácteo, dióxido de silicio (anticompactante), almidón pregelatinizado, bromelina",
-      "preparacion":"ENSOY® PROTECT Para preparar un vaso de Ensoy Protect agregue a un vaso de 200 ml de agua fría 3 cucharas medidoras equivalentes a 57g de producto.",
+      "preparacion":"ENSOY® PROTECT Para preparar un vaso de Ensoy Protect agregue a un vaso de 200 ml de agua fría 3 cucharas medidoras equivalentes a 57g de producto.",
       "presentación":"Lata x 400g",
       "invima":"RSA-000662-2016 ",
       "imagen":"img/ensoy_protect.png",
@@ -467,12 +470,57 @@
       "id":19,
       "nombre":"ENSOY® CREMA VERDURAS",
       "descripción":"ENSOY® CREMA Alimento en polvo para preparar crema instantánea con proteína vegetal, enriquecido con calcio, sabor verduras.",
-      "composición":"Maltodextrina, proteína aislada de soya (proteína aislada de soya, fosfato de calcio, lecitina de soya(emulsionante)), aceite de canola, fibra de soya, polidextrosa, sabores artificiales, proteína de suero, cloruro de sodio, grasa vegetal, extracto de levadura (acentuador de sabor), vegetales deshidratados, glutamato monosódico (acentuador de sabor), fosfato de calcio tribásico, almidón de papa, monoglicéridos (emulsionante), carboximetilcelulosa (espesante), cloruro de potasio (acentuador de sabor), proteína de arveja, dióxido de silicio coloidal (anticompactante), goma xhantan (estabilizante), cúrcuma (colorante natural), clorofila (colorante natural), óxido de zinc.",
+      "composición":"aceite de canola, fibra de soya,sabores artificiales, polidextrosa, proteína de suero,vegetales deshidratados, grasa vegetal, cloruro desodio, almidón de papa, extracto de levadura(acentuador de sabor).",
       "preparacion":"ENSOY® CREMA Disolver el contenido de un sobre (50 g) en una taza (200 ml) de agua caliente, revolver bien y consumir inmediatamente.",
       "presentación":"Sobre x 50 g - Caja x 4 sobres x 50 g",
       "invima":"RSA-001469-2016",
       "imagen":"img/ensoy_crema_verduras.png",
       "nutricional":"img/nutricional/ensoy_crema_verdura.jpg",
+      "presentaciones":[
+         {
+            "id":1,
+            "detalle":"Sobre x 50 g",
+            "porciones":7,
+            "disponibilidad":[
+               {
+                  "eps":"SURA",
+                  "codigo":"22015"
+               },
+               {
+                  "eps":"EPSIFARMA",
+                  "codigo":"22015"
+               }
+            ]
+         },
+         {
+            "id":2,
+            "detalle":"Caja x 4 sobres x 50 g",
+            "porciones":7,
+            "disponibilidad":[
+               {
+                  "eps":"SURA",
+                  "codigo":"22015"
+               },
+               {
+                  "eps":"EPSIFARMA",
+                  "codigo":"22015"
+               }
+            ]
+         }
+            
+         
+      ]
+   },
+   {
+      "id":20,
+      "nombre":"ENSOY® CREMA POLLO",
+      "descripción":"ENSOY® CREMA Alimento en polvo para preparar crema instantánea con proteína vegetal, enriquecido con calcio, sabor a pollo.",
+      "composición":"aceite de canola, fibra de soya,sabores artificiales, polidextrosa, proteína de suero,vegetales deshidratados, grasa vegetal, cloruro desodio, almidón de papa, extracto de levadura(acentuador de sabor).",
+      "preparacion":"ENSOY® CREMA Disolver el contenido de un sobre (50 g) en una taza (200 ml) de agua caliente, revolver bien y consumir inmediatamente.",
+      "presentación":"Sobre x 50 g - Caja x 4 sobres x 50 g",
+      "invima":"RSA-001469-2016",
+      "imagen":"img/ensoy_crema_pollo.png",
+      "nutricional":"img/nutricional/ensoy_crema_pollo.jpg",
       "presentaciones":[
          {
             "id":1,
