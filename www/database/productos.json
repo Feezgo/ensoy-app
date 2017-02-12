@@ -1,7 +1,7 @@
 [
       {
       "id":1,
-      "nombre":"ENSOY ADULTOS",
+      "nombre":"ENSOY",
       "descripción":"ENSOY es un alimento en  polvo diseñado para complementar la alimentación de aquellas personas que requieren soporte nutricional con macronutrientes y micronutrientes. Contiene proteína de alta calidad (Proteína Aislada de Soya), naturalmente libre de   colesterol,  lactosa y gluten.",
       "composición":"Maltodext",
       "invima":"RSAV16I71314",
@@ -55,7 +55,7 @@
       "descripción":" ENSOY DIABÉTICOS es el complemento nutricional de bajo índice glicémico (IG 47) especializado para Diabéticos, libre de azúcar añadido, endulzado con maltitol. ENSOYDIABÉTICOS es ricoenproteínas usfuentes son: proteínaaisladadesoya,proteínadesuerolácteo,además contiene aceite de canola y girasol,omega3,relacióno mega6/omega3(3: 1),        fibraFOS(fructo-oligosacáridos),12 vitaminas y 13minerales.",
       "composición":"Maltitol",
       "invima":"RSAV10121805", 
-      "ig":"IG 47",
+      "ig":"",
       "preparacion":"Una porción de ENSOY DIABÉTICOS se prepara adicionando a un vaso de agua de 210 ml, 4 cucharas medidoras de ENSOY DIABÉTICOS equivalentes a 60 gr de producto.",
       "imagen":"img/diabeticos_vainilla.png",
       "nutricional":"img/nutricional/Ensoy_Diabeticos.jpg",
@@ -173,7 +173,7 @@
       "preparacion":"Niños mayores de 2 años: Una porción de ENSOY® NIÑOS DEFENSE se prepara adicionando a 1 vaso de agua de 190 ml, 3 cucharas medidoras de ENSOY® NIÑOS DEFENSE equivalentes a 45 gr de producto. ",
       "presentación":": Lata por 400 g (sabor vainilla), rinde 9 porciones. Lata por 900 g (sabor vainilla), rinde 20 porciones (Reg. San. RSAV16I71314).",
       "invima":"RSAV16I71314",
-      "ig":" Con probióticos y prebióticos",
+      "ig":"",
       "imagen":"img/defense_ninos.png",
       "nutricional":"img/nutricional/Ensoy_Ninos_Defense.jpg",
       "presentaciones":[
@@ -320,7 +320,7 @@
       "presentación":"Lata por 400 g (sabor vainilla), rinde 9 porciones. (Reg. San. RSAV16I73515).",
       "invima":"RSAV16I73515",
       "imagen":"img/ensoy_memo.png",
-      "ig":" FODMAP",
+      "ig":"",
       "nutricional":"img/nutricional/Ensoy_Memo.jpg",
       "presentaciones":[
          {
@@ -480,7 +480,7 @@
          {
             "id":1,
             "detalle":"Sobre x 50 g",
-            "porciones":7,
+            "porciones":1,
             "disponibilidad":[
                {
                   "eps":"SURA",
@@ -495,7 +495,7 @@
          {
             "id":2,
             "detalle":"Caja x 4 sobres x 50 g",
-            "porciones":7,
+            "porciones":4,
             "disponibilidad":[
                {
                   "eps":"SURA",
@@ -525,7 +525,7 @@
          {
             "id":1,
             "detalle":"Sobre x 50 g",
-            "porciones":7,
+            "porciones":1,
             "disponibilidad":[
                {
                   "eps":"SURA",
@@ -540,7 +540,7 @@
          {
             "id":2,
             "detalle":"Caja x 4 sobres x 50 g",
-            "porciones":7,
+            "porciones":4,
             "disponibilidad":[
                {
                   "eps":"SURA",
