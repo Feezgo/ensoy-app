@@ -14,9 +14,7 @@
     		<div ng-repeat="producto in productos">
     			<a ng-model="model[$index].invima" href="#/productos/{{ producto.id }}"><img class="productos-imagen-home" src="{{ producto.imagen }}"></a>
                 <div class="datos_invima">
-                <span style="color: #666869;">Invima: {{ producto.invima }} </span> <span style="padding-left: 17px;
-color: #ccbf04;">{{ producto.ig }}</span><br>
-
+                <h5 style="color: #666869;text-align: center;">Invima: {{ producto.invima }} </h5>
                 <p >Preparación: {{ producto.preparacion }}</p>
                 </div>
     		</div>

@@ -45,7 +45,7 @@
                 <br>
             </div>
             <select ng-model="plan.id_presentacion" class="select-blue" ng-change="actualizarplan()">
-                <option value="" disabled selected>Presentación a formular</option>
+                <option value="" disabled selected>Presentación</option>
                 <option ng-repeat="presentacion in producto.presentaciones" value="{{ presentacion.id }}">{{ presentacion.detalle }}</option>
             </select>
             <div>
