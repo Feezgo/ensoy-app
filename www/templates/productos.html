@@ -1,4 +1,4 @@
-<ion-view title="Productos">
+<ion-view title="Productos" cache-view="false">
     <ion-content>
     <div class="superior-productos">
 	    <img class="home-icon-1" src="img/epd-icon.png">
@@ -10,7 +10,7 @@
         Seleccione el producto que desea recomendar
     </div>
     <div class="slider-productos">
-    	<slick init-onload=true dots=false arrows=true infinite=false speed=300 slides-to-show=1 touch-move=false slides-to-scroll=1 data="productos">
+    	<slick init-onload=false dots=false arrows=true infinite=false speed=300 slides-to-show=1 touch-move=false slides-to-scroll=1 data="productos" onReInit='onReinit'>
     		<div ng-repeat="producto in productos">
     			<a ng-model="model[$index].invima" href="#/productos/{{ producto.id }}"><img class="productos-imagen-home" src="{{ producto.imagen }}"></a>
                 <div class="datos_invima">
