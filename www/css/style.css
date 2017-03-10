@@ -10,16 +10,16 @@
 }
 
 
-.datos_invima{
+.datos_invima {
     position: relative;
     top: 0px;
-    height: 130px;
-    padding: 33px;
+    height: 135px;
+    padding: 20px 10px 0px 10px;
     text-align: justify;
     font-weight: bolder;
     color: #2f4477;
     font-size: small;
-}
+}   
 .nutricion_h4{
     text-align: center;
     color: #59597d;
