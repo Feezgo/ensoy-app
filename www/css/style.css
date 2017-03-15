@@ -19,7 +19,9 @@
     font-weight: bolder;
     color: #2f4477;
     font-size: small;
-}   
+    line-height: 16px;
+}
+
 .nutricion_h4{
     text-align: center;
     color: #59597d;
@@ -229,7 +231,8 @@ margin: 9%;
 text-align: center;
 padding: 7.5px 0 7.5px 0;
 padding: 5px 5px 5px 5px;
-
+margin-top: 5px;
+margin-bottom: 5px;
 }
 
 .slider-productos {
@@ -310,6 +313,8 @@ padding: 5px 5px 5px 5px;
 
 div.form-container {
     margin: 9%;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 /*pop-up*/
