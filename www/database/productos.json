@@ -52,7 +52,7 @@
    {
       "id":3,
       "nombre":"Ensoy Diabéticos",
-      "descripción":" ENSOY DIABÉTICOS es el complemento nutricional de bajo índice glicémico (IG 47) especializado para Diabéticos, libre de azúcar añadido, endulzado con maltitol. ENSOYDIABÉTICOS es ricoenproteínas usfuentes son: proteínaaisladadesoya,proteínadesuerolácteo,además contiene aceite de canola y girasol,omega3,relacióno mega6/omega3(3: 1),        fibraFOS(fructo-oligosacáridos),12 vitaminas y 13minerales.",
+      "descripción":" ENSOY DIABÉTICOS es el complemento nutricional de bajo índice glicémico (IG 47) especializado para Diabéticos, libre de azúcar añadido, endulzado con maltitol. ENSOYDIABÉTICOS es ricoenproteínas sus fuentes son: proteína aislada de soya,proteína de suero lácteo,además contiene aceite de canola y girasol,omega3,relacióno mega6/omega3(3: 1),        fibra FOS(fructo-oligosacáridos),12 vitaminas y 13 minerales.",
       "composición":"Maltitol",
       "invima":"RSAV10I21805", 
       "ig":"",
@@ -500,7 +500,21 @@
                   "eps":"EPSIFARMA",
                   "codigo":"22015"
                }
-            ]
+            ],
+            "id":2,
+            "detalle":"Lata 900",
+            "porciones":7,
+            "disponibilidad":[
+               {
+                  "eps":"SURA",
+                  "codigo":"22015"
+               },
+               {
+                  "eps":"EPSIFARMA",
+                  "codigo":"22015"
+               }
+            ],
+
          }
             
          
