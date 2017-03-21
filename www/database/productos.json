@@ -500,7 +500,7 @@
                   "eps":"EPSIFARMA",
                   "codigo":"22015"
                }
-            ],
+            ]},{
             "id":2,
             "detalle":"Lata 900",
             "porciones":7,
@@ -513,7 +513,7 @@
                   "eps":"EPSIFARMA",
                   "codigo":"22015"
                }
-            ],
+            ]
 
          }
             
