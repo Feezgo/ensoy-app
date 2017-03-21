@@ -16,13 +16,6 @@ angular.module('starter.controllers', [])
 	{
 		$scope.productos = data;
 	});
-
-	$scope.onAfterChange = function(e)
-	{
-		console.log(e);
-		 //$scope.name = e.invima;
-		 //$scope.name = e.preparacion;
-	}
 })
 .controller('DetallesCtrl', function($scope, $ensoy, $plan, $stateParams, $filter, $location, $ionicPopup, $ionicModal)
 {
@@ -39,6 +32,7 @@ angular.module('starter.controllers', [])
 
 	$ionicModal.fromTemplateUrl('image-modal.html', {
 		scope: $scope,
+		backdropClickToClose: true,
 		animation: 'slide-in-up'
     }).then(function(modal) {
 		$scope.modal = modal;
@@ -51,6 +45,10 @@ angular.module('starter.controllers', [])
     $scope.$on('$destroy', function() {
 		$scope.modal.remove();
     });
+
+	$scope.$on('$ionicView.beforeLeave', function(){
+    	ionic.trigger('resize', {target: window});
+	});
 
 	$scope.mostrarInformacionNutricional = function()
 	{

@@ -30,7 +30,7 @@ angular.module('slick', []).directive('slick', [
         lazyLoad: '@',
         onBeforeChange: '&',
         onAfterChange: '&',
-        onInit: '&',
+        onInit: '@',
         onReInit: '&',
         onSetPosition: '&',
         pauseOnHover: '@',
