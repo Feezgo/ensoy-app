@@ -191,6 +191,7 @@
     float: right;
     margin: 15px 7px 0 0;
     position: relative;
+    /*display: none;  */
 }
 .home-icon-1{
    margin-top: 5px;

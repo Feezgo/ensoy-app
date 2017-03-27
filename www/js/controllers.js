@@ -1,24 +1,35 @@
 angular.module('starter.controllers', [])
 
-.controller('HomeCtrl', function($scope)
+.controller('HomeCtrl', function($scope,$ionicHistory)
 {
+
+  $scope.myGoBack = function() {
+    $ionicHistory.goBack();
+  }
+
 	
 })
-.controller('ProductosCtrl', function($scope, $ensoy, $plan, $location)
+.controller('ProductosCtrl', function($scope, $ensoy, $plan, $location,$ionicHistory)
 {
 	$scope.plan = $plan;
 	$scope.plan.id_producto = '';
 	$scope.plan.id_presentacion = '';
 	$scope.plan.numero_tomas_dia = '';
 	$scope.plan.numero_meses = '';
-
+ $scope.myGoBack = function() {
+    $ionicHistory.goBack();
+  }
 	$ensoy.productos().then(function(data)
 	{
 		$scope.productos = data;
 	});
 })
-.controller('DetallesCtrl', function($scope, $ensoy, $plan, $stateParams, $filter, $location, $ionicPopup, $ionicModal)
+.controller('DetallesCtrl', function($scope, $ensoy, $plan, $stateParams, $filter, $location, $ionicPopup, $ionicModal,$ionicHistory)
 {
+
+	 $scope.myGoBack = function() {
+    $ionicHistory.goBack();
+  }
 	$scope.plan = $plan;
 	$scope.plan.id_producto = $stateParams.id;
 	$scope.plan.id_presentacion = '';
@@ -84,8 +95,11 @@ angular.module('starter.controllers', [])
 		$scope.producto = producto;
 	});
 })
-.controller('PlanCtrl', function($scope, $ensoy, $plan, $filter)
-{	
+.controller('PlanCtrl', function($scope, $ensoy, $plan, $filter,$ionicHistory)
+{		
+	 $scope.myGoBack = function() {
+    $ionicHistory.goBack();
+  }
 	$ensoy.productos().then(function(data)
 	{
 		$scope.latas = 0;
