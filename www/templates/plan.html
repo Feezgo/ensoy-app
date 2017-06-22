@@ -3,7 +3,7 @@
 	     <div class="superior-productos" >
             <img class="home-icon-1" src="img/epd-icon.png">
              <a ng-click="myGoBack()"   class="home-superior-a" target="_self"><img class="home-icon" src="img/bac-icon.png"></a>
-             <a ng-click="myGoBack()" style="display:none" class="home-superior-a"><img class="home-icon" src="img/home-icon.png"></a>
+            
         </div>
 	    <h4 class="nutricion_h4">Nutrición Avanzada</h4>
 	    <div class="producto-msg-title">
@@ -27,10 +27,12 @@
 				    <p>Presentación: <strong>{{presentacion.detalle}}</strong></p>
 				</div>
 			</div>
-			<p class="eps-text">Selecccione la EPS para obtener código de producto:</p>
-			<select class="select-blue" ng-model="modeloeps" ng-options="disponibilidad as disponibilidad.eps for disponibilidad in presentacion.disponibilidad" ng-change="obtener()" >
-            </select>
-            <p class="codigo-text"><strong>Código {{modeloeps.codigo}}</strong></p>
+			<div style="display:none">
+					<p class="eps-text">Selecccione la EPS para obtener código de producto:</p>
+					<select class="select-blue" ng-model="modeloeps" ng-options="disponibilidad as disponibilidad.eps for disponibilidad in presentacion.disponibilidad" ng-change="obtener()" >
+		            </select>
+		            <p class="codigo-text"><strong>Código {{modeloeps.codigo}}</strong></p>
+       		</div>
 		</div>
 		
 	</ion-content>
